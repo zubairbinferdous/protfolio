@@ -2,15 +2,6 @@
 import React from "react";
 import "../App.css";
 import comOne from '../assets/crrom1.png';
-import js from '../assets/js.svg';
-import laravel from '../assets/laravel-svgrepo-com.svg';
-import prisma from '../assets/light-prisma-svgrepo-com.svg';
-import mongo from '../assets/mongodb-svgrepo-com.svg';
-import my from '../assets/mysql-logo-svgrepo-com.svg';
-import node from '../assets/nodejs-logo-svgrepo-com.svg';
-import posGet from '../assets/postgresql-svgrepo-com.svg';
-import reactJs from '../assets/react.svg';
-import redux from '../assets/redux-svgrepo-com.svg';
 
 const About = () => {
   return (
@@ -46,7 +37,7 @@ const About = () => {
           </div>
 
           <div className="row m-40">
-            <div className="col-md-6 ">
+            <div className="col-md-4 ">
               <div className="header-title">
 
               <h2>Experience</h2>
@@ -77,10 +68,41 @@ const About = () => {
               </div>
               </div>
             </div>
-            <div className="col-md-6 ">
+            <div className="col-md-4 ">
               <div className="header-title">
 
-              <h2>Experience</h2>
+              <h2>Education</h2>
+              <div className="experience">
+                <div className="ex-area">
+                  <div className="ex-section">
+                    <img src={comOne} alt="" className="logo-icon"/>
+                    <div className="ex-data">
+                      <h3>Full Time Freelancing</h3>
+                      <span>apr 2023 - present </span>
+                    </div>
+                  </div>
+                  <div className="ex-section">
+                    <img src={comOne} alt="" className="logo-icon"/>
+                    <div className="ex-data">
+                      <h3>Full Time Freelancing</h3>
+                      <span>apr 2023 - present </span>
+                    </div>
+                  </div>
+                  <div className="ex-section">
+                    <img src={comOne} alt="" className="logo-icon"/>
+                    <div className="ex-data">
+                      <h3>Full Time Freelancing</h3>
+                      <span>apr 2023 - present </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+            <div className="col-md-4 ">
+              <div className="header-title">
+
+              <h2>Language</h2>
               <div className="experience">
                 <div className="ex-area">
                   <div className="ex-section">
@@ -111,73 +133,7 @@ const About = () => {
            
           </div>
 
-          <div className="row  m-40">
-           <h3 className="skill-title">Skills</h3>
-            <div className="col-md-2 ">
-              <div className="skill-data bg-icon">
-                <img className="skill-img" src={reactJs} alt="" />
-             
-                <h3>React</h3>
-              </div>
-            </div>
-            <div className="col-md-2 ">
-              <div className="skill-data bg-icon">
-                <img className="skill-img" src={js} alt="" />
-               
-                <h3>React</h3>
-              </div>
-            </div>
-            <div className="col-md-2 ">
-              <div className="skill-data bg-icon">
-                <img className="skill-img" src={node} alt="" />
-               
-                <h3>React</h3>
-              </div>
-            </div>
-            <div className="col-md-2 ">
-              <div className="skill-data bg-icon">
-                <img className="skill-img" src={redux} alt="" />
-               
-                <h3>React</h3>
-              </div>
-            </div>
-            <div className="col-md-2 ">
-              <div className="skill-data bg-icon">
-                <img className="skill-img" src={mongo} alt="" />
-               
-                <h3>React</h3>
-              </div>
-            </div>
-            <div className="col-md-2 ">
-              <div className="skill-data bg-icon">
-                <img className="skill-img" src={my} alt="" />
-               
-                <h3>React</h3>
-              </div>
-            </div>
-            <div className="col-md-2 ">
-              <div className="skill-data bg-icon">
-                <img className="skill-img" src={posGet} alt="" />
-               
-                <h3>React</h3>
-              </div>
-            </div>
-            <div className="col-md-2 ">
-              <div className="skill-data bg-icon">
-                <img className="skill-img" src={prisma} alt="" />
-              
-                <h3>React</h3>
-              </div>
-            </div>
-            <div className="col-md-2 ">
-              <div className="skill-data bg-icon">
-                <img className="skill-img" src={laravel} alt="" />
-              
-                <h3>React</h3>
-              </div>
-            </div>
-
-          </div>
+         
         </div>
       </div>
     </div>

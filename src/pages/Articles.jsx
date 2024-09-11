@@ -1,6 +1,15 @@
 import React from 'react';
 import "../App.css";
+import js from '../assets/js.svg';
+import laravel from '../assets/laravel-svgrepo-com.svg';
+import prisma from '../assets/light-prisma-svgrepo-com.svg';
+import mongo from '../assets/mongodb-svgrepo-com.svg';
+import my from '../assets/mysql-logo-svgrepo-com.svg';
+import node from '../assets/nodejs-logo-svgrepo-com.svg';
+import posGet from '../assets/postgresql-svgrepo-com.svg';
 import proOne from '../assets/pro2.jpg';
+import reactJs from '../assets/react.svg';
+import redux from '../assets/redux-svgrepo-com.svg';
 
 const Articles = () => {
     return (
@@ -10,7 +19,7 @@ const Articles = () => {
            <div className="container">
                <div className="row">
                    <div className="title-area text-center">
-                   <h3> My Recent Articles</h3>
+                   <h3> Publication</h3>
                    <p>  We put your ideas and thus your wishes in the form of a unique web project that inspires you and you customers.</p>
                    </div>
                </div>
@@ -108,6 +117,73 @@ const Articles = () => {
                  
 
                </div>
+               <div className="row  m-40">
+           <h3 className="skill-title">Skills</h3>
+            <div className="col-md-2 ">
+              <div className="skill-data bg-icon">
+                <img className="skill-img" src={reactJs} alt="" />
+             
+                <h3>React</h3>
+              </div>
+            </div>
+            <div className="col-md-2 ">
+              <div className="skill-data bg-icon">
+                <img className="skill-img" src={js} alt="" />
+               
+                <h3>React</h3>
+              </div>
+            </div>
+            <div className="col-md-2 ">
+              <div className="skill-data bg-icon">
+                <img className="skill-img" src={node} alt="" />
+               
+                <h3>React</h3>
+              </div>
+            </div>
+            <div className="col-md-2 ">
+              <div className="skill-data bg-icon">
+                <img className="skill-img" src={redux} alt="" />
+               
+                <h3>React</h3>
+              </div>
+            </div>
+            <div className="col-md-2 ">
+              <div className="skill-data bg-icon">
+                <img className="skill-img" src={mongo} alt="" />
+               
+                <h3>React</h3>
+              </div>
+            </div>
+            <div className="col-md-2 ">
+              <div className="skill-data bg-icon">
+                <img className="skill-img" src={my} alt="" />
+               
+                <h3>React</h3>
+              </div>
+            </div>
+            <div className="col-md-2 ">
+              <div className="skill-data bg-icon">
+                <img className="skill-img" src={posGet} alt="" />
+               
+                <h3>React</h3>
+              </div>
+            </div>
+            <div className="col-md-2 ">
+              <div className="skill-data bg-icon">
+                <img className="skill-img" src={prisma} alt="" />
+              
+                <h3>React</h3>
+              </div>
+            </div>
+            <div className="col-md-2 ">
+              <div className="skill-data bg-icon">
+                <img className="skill-img" src={laravel} alt="" />
+              
+                <h3>React</h3>
+              </div>
+            </div>
+
+          </div>
            </div>
        </div>
      </div>

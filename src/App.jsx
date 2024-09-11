@@ -15,11 +15,11 @@ function App() {
     <>
       <Header></Header>
       <Hero></Hero>
-      <Service></Service>
-      <Work></Work>
       <About></About>
-      <Clints></Clints>
       <Articles></Articles>
+      <Work></Work>
+      <Service></Service>
+      <Clints></Clints>
       <Contact></Contact>
       <Footer></Footer>
     </>
