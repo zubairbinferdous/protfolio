@@ -1,7 +1,9 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import "../App.css";
+
 import comOne from '../assets/crrom1.png';
+import profile from '../assets/profilePic.png';
 
 const About = () => {
   return (
@@ -17,20 +19,14 @@ const About = () => {
             <div className="col-md-3">
               <div className="profile-pic">
                 <div className="pic-area">
-                <img src="" alt="" />
+                <img src={profile} alt="" />
                 </div>
               </div>
             </div>
             <div className="col-md-9">
               <div className="profile">
-                <h2>Hi 👋 I am <span className="span-title">Olyve Schwarz</span></h2>
                 <p>
-                  A product designer with a knack for turning problems and
-                  opportunities into user-driven strategic solutions. <br /> <br />
-                  As a product designer, I specialize in creating unique visual
-                  identities for digital products. I believe that a stunning
-                  design starts with common values, open communication, and
-                  respect for your audience.
+                I am a versatile Assistant Operations Manager, Project Manager, Administrator and Full Stack Developer with over 5 years of experience in optimizing operations, managing projects, and driving success. My 3-4 years of freelance work with startups have honed my ability to streamline processes, enhance productivity, and achieve strategic goals. I am passionate about problem-solving, collaboration, and delivering impactful results.
                 </p>
               </div>
             </div>

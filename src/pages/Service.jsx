@@ -14,14 +14,14 @@ const Service = () => {
                         </div>
                     </div>
                     <div className="row mt-60">
-                        <div className="col-md-7">
+                        <div className="col-md-7 ">
                           <div className="service-data">
                             <span>01</span>
                             <h2>Digital Branding</h2>
                             <p>Blend of strategic thinking and creative flair to craft a digital identity that resonates and captivates.</p>
                           </div>
                         </div>
-                        <div className="col-md-5">
+                        <div className="col-md-5 ">
                         <div className="service-data">
                             <span>01</span>
                             <h2>Digital Branding</h2>

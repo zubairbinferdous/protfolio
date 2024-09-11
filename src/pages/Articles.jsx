@@ -119,63 +119,63 @@ const Articles = () => {
                </div>
                <div className="row  m-40">
            <h3 className="skill-title">Skills</h3>
-            <div className="col-md-2 ">
+            <div className="col-md-2 col-6">
               <div className="skill-data bg-icon">
                 <img className="skill-img" src={reactJs} alt="" />
              
                 <h3>React</h3>
               </div>
             </div>
-            <div className="col-md-2 ">
+            <div className="col-md-2 col-6">
               <div className="skill-data bg-icon">
                 <img className="skill-img" src={js} alt="" />
                
                 <h3>React</h3>
               </div>
             </div>
-            <div className="col-md-2 ">
+            <div className="col-md-2  col-6">
               <div className="skill-data bg-icon">
                 <img className="skill-img" src={node} alt="" />
                
                 <h3>React</h3>
               </div>
             </div>
-            <div className="col-md-2 ">
+            <div className="col-md-2  col-6">
               <div className="skill-data bg-icon">
                 <img className="skill-img" src={redux} alt="" />
                
                 <h3>React</h3>
               </div>
             </div>
-            <div className="col-md-2 ">
+            <div className="col-md-2 col-6">
               <div className="skill-data bg-icon">
                 <img className="skill-img" src={mongo} alt="" />
                
                 <h3>React</h3>
               </div>
             </div>
-            <div className="col-md-2 ">
+            <div className="col-md-2 col-6 ">
               <div className="skill-data bg-icon">
                 <img className="skill-img" src={my} alt="" />
                
                 <h3>React</h3>
               </div>
             </div>
-            <div className="col-md-2 ">
+            <div className="col-md-2 col-6">
               <div className="skill-data bg-icon">
                 <img className="skill-img" src={posGet} alt="" />
                
                 <h3>React</h3>
               </div>
             </div>
-            <div className="col-md-2 ">
+            <div className="col-md-2 col-6">
               <div className="skill-data bg-icon">
                 <img className="skill-img" src={prisma} alt="" />
               
                 <h3>React</h3>
               </div>
             </div>
-            <div className="col-md-2 ">
+            <div className="col-md-2 col-6">
               <div className="skill-data bg-icon">
                 <img className="skill-img" src={laravel} alt="" />
               

@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import profile from '../assets/profilePic.jpg';
+import profile from '../assets/profile.jpg';
 
 const Hero = () => {
     return (
@@ -10,11 +10,9 @@ const Hero = () => {
                <div className="row">
                     <div className="col-md-7">
                       <div className="hero-data-area">
-                      <h1>  I am SK Ayub Al Wahid </h1>
-                     <h3>Web Developer +</h3>
-                     <h3>UX Designer</h3>
-
-                    <p>I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people</p>
+                      <h1> Hi 👋 I am SK Ayub Al Wahid</h1>
+                     <h3> Operations & Project Management Professional and Full Stack Developer</h3>
+                    <p>Detail-oriented problem solver eager to drive success in forward-thinking organizations.</p>
                     <a href="">Download CV </a>
 
                       </div>
