@@ -19,10 +19,9 @@ const Contact = () => {
             </div>
             <div className="col-md-6">
               <div className="contact-area-info">
-                <h2>It's time to talk about your project.</h2>
+                <h2>Let’s dive into your project and bring your vision to life.</h2>
                 <p>
-                  Let’s embark on creative journey together by shaping a visual
-                  narrative of your brand in the crowded digital space.
+                Join me on a creative journey as we craft a powerful visual narrative for your brand, helping it rise above the noise in today’s crowded digital landscape.
                 </p>
                 <div className="">
                     <div className="experience">
@@ -30,16 +29,15 @@ const Contact = () => {
                         <div className="ex-sectione">
                           <div className="ex-dataa">
                             <h3>Phone :</h3>
-                            <h4>+01 234 567 8902</h4>
+                            <h4>+1 424 236 1742</h4>
                           </div>
                           <div className="ex-dataa">
                             <h3>Email :</h3>
-                            <h4>sayhello@olyveschwarz.me</h4>
+                            <h4>skayub.rjs@gmail.com</h4>
                           </div>
                           <div className="ex-dataa">
                             <h3>Address :</h3>
-                            <h4>Borough 47, Aveton Gifford,
-                            Devon, UK, EX4 1QU</h4>
+                            <h4>Los Angeles, California, United States of America</h4>
                           </div>
                         </div>
                       
