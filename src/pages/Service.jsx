@@ -7,7 +7,7 @@ const Service = () => {
           <div className="service-area mb-10">
           <div className="container-fluid">
                 <div className="container">
-                    <div className="row">
+                    <div className="row" id='Services'>
                         <div className="title-area text-center">
                         <h3>  My Quality Services</h3>
                         <p>  From web applications to digital marketing, brand promotion, and eCommerce solutions, I provide everything you need to succeed in the digital world.</p>

@@ -9,11 +9,11 @@ const Hero = () => {
                <div className="container">
                <div className="row">
                     <div className="col-md-7">
-                      <div className="hero-data-area">
+                      <div className="hero-data-area" id='home'>
                       <h1> Hi 👋 I am SK Ayub Al Wahid</h1>
                      <h3> Operations & Project Management Professional and Full Stack Developer</h3>
                     <p>Detail-oriented problem solver eager to drive success in forward-thinking organizations.</p>
-                    <a href="">Download CV </a>
+                    <a href="../assets/Ayub.pdf" download={'Ayub.pdf'}>Download CV </a>
 
                       </div>
                     </div>

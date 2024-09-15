@@ -1,6 +1,7 @@
 import React from "react";
 import "../App.css";
-import clint from '../assets/about.jpg';
+import clintoo from '../assets/cho.jpg';
+import clinto from '../assets/clintoo.jpg';
 
 const Clints = () => {
   return (
@@ -8,7 +9,7 @@ const Clints = () => {
       <div className="work-area mb-10">
         <div className="container-fluid">
           <div className="container ">
-            <div className="row">
+            <div className="row" id="Testimonials">
               <div className="title-area text-center">
                 <h3> Testimonials</h3>
               </div>
@@ -41,24 +42,34 @@ const Clints = () => {
                 </div> */}
                 <div className="carousel-inner">
                   <div className="carousel-item">
-                    <div className="work-data">
-                    <div className="clint-data text-center">
-                        <img src={clint} alt="" />
-                        <h2>Digital Branding </h2>
+                    <div className="work-datae">
+                    <div className="clint-datat text-center ">
+                        <img src={clinto} alt="" />
+                        <h2>Nomal ahmad</h2>
                         <p>
-                          Blend of strategic thinking and creative flair to
-                          craft a digital identity that resonates and
-                          captivates.
+                        The eCommerce solution created by SK Ayub Al Wahid is exceptional. With its easy-to-use interface and comprehensive features for managing products, sales, and vendors, it has greatly improved our business operations. The platform’s reporting and expense management tools are particularly impressive.
                         </p>
                        
                       </div>
                     </div>
                   </div>
                   <div className="carousel-item active">
-                    <div className="work-data">
-                      <div className="clint-data text-center">
+                    <div className="work-datae">
+                      <div className="clint-datat text-center " >
+                        <img src={clintoo} alt="" />
+                        <h2>navid al azim  </h2>
+                        <p>
+                        We are thrilled with the project management system developed by SK Ayub Al Wahid. Its comprehensive capabilities, including salary and payment management, have given us greater control over our projects. The intuitive design and efficient features have significantly boosted our team’s efficiency.
+                        </p>
+                       
+                      </div>
+                    </div>
+                  </div>
+                  {/* <div className="carousel-item ">
+                    <div className="work-datae">
+                      <div className="clint-datat text-center ">
                         <img src={clint} alt="" />
-                        <h2>Digital Branding </h2>
+                        <h2>Digital Branding5 </h2>
                         <p>
                           Blend of strategic thinking and creative flair to
                           craft a digital identity that resonates and
@@ -67,21 +78,7 @@ const Clints = () => {
                        
                       </div>
                     </div>
-                  </div>
-                  <div className="carousel-item ">
-                    <div className="work-data">
-                      <div className="clint-data text-center">
-                        <img src={clint} alt="" />
-                        <h2>Digital Branding </h2>
-                        <p>
-                          Blend of strategic thinking and creative flair to
-                          craft a digital identity that resonates and
-                          captivates.
-                        </p>
-                       
-                      </div>
-                    </div>
-                  </div>
+                  </div> */}
 
                  
                 </div>

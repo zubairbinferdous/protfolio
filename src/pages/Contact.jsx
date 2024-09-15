@@ -6,7 +6,7 @@ const Contact = () => {
     <div>
       <div className="container-fluid contact-bg">
         <div className="container">
-          <div className="row">
+          <div className="row" id="Contact">
             <div className="col-md-6">
               <div className="from-area">
                 <from className="from-data">
