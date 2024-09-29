@@ -1914,6 +1914,55 @@ footer {
   text-transform: uppercase;
   color: white;
 }
+
+.igm-area-projecta img {
+  transition: transform 0.6s ease;
+}
+
+.project-imga {
+  margin: 10px 20px;
+  border-radius: 10px;
+  height: 250px;
+  overflow: hidden;
+}
+
+.project-dataaa h4 {
+  font-size: 12px;
+  color: rgb(194, 16, 16);
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.project-dataaa h5 {
+  font-size: 18px;
+  color: white;
+  text-transform: uppercase;
+  transition: all linear 0.3s;
+}
+.project-dataaa h2 {
+  transition: all linear 0.3s;
+  font-size: 18px;
+}
+.project-dataaa h5:hover {
+  color: rgb(194, 16, 16);
+}
+.project-dataaa h2:hover {
+  color: rgb(194, 16, 16);
+}
+
+.navbar {
+  background-color: #212428e3;
+  box-shadow: 1px 1px 10px rgba(56, 55, 55, 0.795);
+}
+
+.project-dataaa h2 {
+  transition: all linear 0.3s;
+  font-size: 17px;
+}
+
+.contact-bg {
+  background-color: #212428;
+}
 @media (max-width: 575.98px) {
   .modal-title {
     color: white;
@@ -2716,7 +2765,7 @@ footer {
   }
 
   .navbar {
-    background-color: #313131;
+    background-color: #1f1a16;
   }
   .work-areaa {
     background: #212428 !important;
@@ -2736,4 +2785,14 @@ footer {
     top: -11px;
     right: -9px;
   }
+
+  .project-dataaa h5:hover {
+    color: rgb(194, 16, 16);
+  }
+  .project-dataaa h2:hover {
+    color: rgb(194, 16, 16);
+  }
+}
+.modal {
+  background-color: #212428c0;
 }

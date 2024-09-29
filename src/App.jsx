@@ -2,7 +2,7 @@ import './App.css'
 import About from './pages/About'
 import Articles from './pages/Articles'
 // import Clints from './pages/Clints'
-// import Contact from './pages/Contact'
+import Contact from './pages/Contact'
 // import Footer from './pages/Footer'
 import Header from './pages/Header'
 import Hero from './pages/Hero'
@@ -20,7 +20,7 @@ function App() {
       <Work></Work>
       <Service></Service>
       {/* <Clints></Clints> */}
-      {/* <Contact></Contact> */}
+      <Contact></Contact>
       {/* <Footer></Footer> */}
     </>
   )

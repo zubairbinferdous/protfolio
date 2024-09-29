@@ -37,9 +37,13 @@ const Work = () => {
                     </div>
                   </div>
                   <div className="project-dataaa">
-                    <h2>
+
+                    <h4>
+                    Application
+                    </h4>
+                    <h5>
                     Project Management Software
-                    </h2>
+                    </h5>
 
 
                     <svg
@@ -135,9 +139,13 @@ const Work = () => {
                     </div>
                   </div>
                   <div className="project-dataaa">
-                    <h2>
+                  
+                    <h4>
+                    ecommerce 
+                    </h4>
+                    <h5>
                     Complete Multi-Vendor eCommerce System
-                    </h2>
+                    </h5>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="36"
@@ -168,6 +176,8 @@ const Work = () => {
                       <h1 className="modal-title fs-5" id="exampleModalLabel24">
                       Complete Multi-Vendor eCommerce System
                       </h1>
+
+                      
                       <div className="button-modal">
                         <button
                           type="button"
@@ -231,9 +241,15 @@ const Work = () => {
                     </div>
                   </div>
                   <div className="project-dataaa">
-                    <h2>
+                
+
+
+                    <h4>
+                    Branding 
+                    </h4>
+                    <h5>
                     Crafting Your Brand's Digital Identity
-                    </h2>
+                    </h5>
 
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -324,9 +340,14 @@ const Work = () => {
                     </div>
                   </div>
                   <div className="project-dataaa">
-                    <h2>
-                    POS Management Platform
-                    </h2>
+
+
+                    <h4>
+                    full stack 
+                    </h4>
+                    <h5>
+                    Crafting Your Brand's Digital Identity
+                    </h5>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="36"
