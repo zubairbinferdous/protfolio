@@ -4,9 +4,12 @@ import "../App.css";
 const Contact = () => {
   return (
     <div>
+       <div className="section"id='Contact'>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A dicta porro repellat et numquam quidem veritatis? Voluptatibus consectetur, repudiandae culpa assumenda, facere totam adipisci illum consequuntur incidunt et molestias at?</p>
+      </div>
       <div className="container-fluid contact-bg">
         <div className="container">
-          <div className="row" id="Contact">
+          <div className="row" id="">
             <div className="col-md-6">
               <div className="from-area">
                 <from className="from-data">

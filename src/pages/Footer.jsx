@@ -3,6 +3,9 @@ import logo from "../assets/logo.png";
 const Footer = () => {
   return (
     <footer>
+        <div className="section"id='footer'>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A dicta porro repellat et numquam quidem veritatis? Voluptatibus consectetur, repudiandae culpa assumenda, facere totam adipisci illum consequuntur incidunt et molestias at?</p>
+      </div>
       <div className="container">
         <div className="row">
           <div className="footer-area ">

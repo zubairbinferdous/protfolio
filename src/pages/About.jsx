@@ -12,11 +12,14 @@ const About = () => {
       setActiveTab(tabName);
     };
   return (
-    <div>
-      <div className=" service-area container-fluid">
+    <div >
+      <div className="section"id='about'>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A dicta porro repellat et numquam quidem veritatis? Voluptatibus consectetur, repudiandae culpa assumenda, facere totam adipisci illum consequuntur incidunt et molestias at?</p>
+      </div>
+      <div className=" service-area container-fluid " >
         <div className="container">
           <div className="row">
-            <div className="title-area text-center" id="about">
+            <div className="title-area text-center" >
               <h3> About Me</h3>
             </div>
           </div>
@@ -190,11 +193,11 @@ const About = () => {
             </div>
           </div> */}
 
-          <div className="row">
+          {/* <div className="row">
             <div className="title-area text-center" id="about">
               <h3> My Resume</h3>
             </div>
-          </div>
+          </div> */}
 
           {/* <div className="row">
             <div className="col-md-12">

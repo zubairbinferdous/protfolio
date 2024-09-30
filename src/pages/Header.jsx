@@ -1,5 +1,6 @@
 import React from "react";
 import '../App.css';
+import logo from '../assets/logo.jpg';
 const Header = () => {
   return (
     <div className="">
@@ -9,7 +10,7 @@ const Header = () => {
         <nav className="navbar navbar-expand-lg navBer fixed-top">
         <div className="container ">
           <a className="navbar-brand" href="#">
-            {/* <img src={logo} alt="" /> */}
+            <img src={logo} alt="" />
           </a>
           <button
             className="navbar-toggler"

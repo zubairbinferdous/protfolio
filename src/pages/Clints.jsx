@@ -6,10 +6,13 @@ import clinto from '../assets/clintoo.jpg';
 const Clints = () => {
   return (
     <div>
+         <div className="section"id='Testimonials'>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A dicta porro repellat et numquam quidem veritatis? Voluptatibus consectetur, repudiandae culpa assumenda, facere totam adipisci illum consequuntur incidunt et molestias at?</p>
+      </div>
       <div className="work-area mb-10">
         <div className="container-fluid">
           <div className="container ">
-            <div className="row" id="Testimonials">
+            <div className="row" >
               <div className="title-area text-center">
                 <h3> Testimonials</h3>
               </div>

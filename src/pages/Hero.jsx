@@ -1,5 +1,5 @@
 // import { faFacebook } from '@fortawesome/free-solid-svg-icons';
-import { faGithub, faGoogleScholar, faLinkedin, faSquareFacebook } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faGoogleScholar, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 
@@ -9,38 +9,42 @@ import profile from "../assets/borobhai.jpg";
 const Hero = () => {
   return (
     <div>
+      <div className="section"id='home'>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A dicta porro repellat et numquam quidem veritatis? Voluptatibus consectetur, repudiandae culpa assumenda, facere totam adipisci illum consequuntur incidunt et molestias at?</p>
+      </div>
       <div className="container-fluid bg-color hero-area">
         <div className="container">
           <div className="row">
             <div className="col-md-7 ">
               <div className="profile-data-area">
-              <div className="hero-data-area" id="home">
+              <div className="hero-data-area">
                 <h1>
                   {" "}
-                  Hi  I am{" "}
-                  <span className="title-head">SK Ayub Al Wahid</span>
+                  Hi, I’m{" "}
+                  <span className="title-head">SK Ayub </span> <br />
+                  <span className="title-head">Al Wahid</span>
                 </h1>
                 <h5>
                   {" "}
-                  Operations & Project Management Professional and Full Stack
+                  A Operations & Project Management Professional and Full Stack
                   Developer
                 </h5>
                 <p>
                   Detail-oriented problem solver eager to drive success in
                   forward-thinking organizations.
                 </p>
-                <a href="../assets/Ayub.pdf" download={"Ayub.pdf"}>
-                  Download CV{" "}
-                </a>
+                <div className="hero-download-area">
+                  <a href="./public/hello.pdf" download="Ayub.pdf"> Download CV</a>
+                </div>
 
                 <div className="icon-area">
                     <h4>find with me</h4>
                     <div className="sizeIcon">
-                    <FontAwesomeIcon className='icon-data-area' icon={faSquareFacebook} />
-                    <FontAwesomeIcon className='icon-data-area' icon={faLinkedin}  />
-                    <FontAwesomeIcon className='icon-data-area' icon={faGoogleScholar}   />
-                    <FontAwesomeIcon className='icon-data-area' icon={faGithub}  />
-                    </div>
+                   <a href="https://github.com/SKRJS"> <FontAwesomeIcon className='icon-data-area' icon={faGithub} /></a>
+                   <a href="https://www.linkedin.com/in/skayubalwahid/"> <FontAwesomeIcon className='icon-data-area' icon={faLinkedin}  /></a>
+                   <a href="https://scholar.google.com/citations?user=sD6iCGEAAAAJ&hl=en"> <FontAwesomeIcon className='icon-data-area' icon={faGoogleScholar}  /></a>
+                  
+                </div>
                     
                 </div>
               </div>

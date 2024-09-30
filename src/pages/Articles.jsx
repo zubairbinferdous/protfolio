@@ -9,11 +9,14 @@ import pro4 from "../assets/p4.jpg";
 const Articles = () => {
   return (
     <div>
+       <div className="section"id='Publication'>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A dicta porro repellat et numquam quidem veritatis? Voluptatibus consectetur, repudiandae culpa assumenda, facere totam adipisci illum consequuntur incidunt et molestias at?</p>
+      </div>
       <div className="work-areaa mb-10">
         <div className="container-fluid">
           <div className="container">
             <div className="row">
-              <div className="title-area text-center" id="Publication">
+              <div className="title-area text-center">
                 <h3> Publication</h3>
                 <p>
                   {" "}
@@ -87,20 +90,16 @@ const Articles = () => {
                     </div>
                     <div className="modle-para">
                       <p>
-                        Disabled people and Virus affected patients can be
-                        helped through Internet of Things and Robotic systems in
-                        this modern era. Recently the whole world is suffering
-                        from the Covid-19 pandemic. The virus affected and
-                        disabled people are helpless because caregivers, doctors
-                        and other people are afraid of the contagious virus.{" "}
+                      <span className="Abstract">Abstract:</span> <br />
+                      Disabled people and Virus affected patients can be helped through Internet of Things and Robotic systems in this modern era. Recently the whole world is suffering from the Covid-19 pandemic. The virus affected and disabled people are helpless because caregivers, doctors and other people are afraid of the contagious virus. This work will result in an IoT based Robotic agent which will be able to help disabled and virus affected people with low cost systems. The robotic agent will be able to recognize the patient's Gesture and follow instructions through it with 360-degree movement. Without image processing the system is made with MPU 6050 Accelerometer Gyroscope sensor for Gesture Recognition. Radio Frequency communication was used to make the system wireless.
                       </p>
                     </div>
                     <div className="modal-body">
                       <div className="row">
                         <div className="col-md-12">
-                          <div className="igm-area-projecta-model">
+                          {/* <div className="igm-area-projecta-model">
                             <img src={pro1} alt="" className="" />
-                          </div>
+                          </div> */}
 
                           <div className="project-dataa">
                             <div className="d-flex project-dataam">
@@ -143,7 +142,7 @@ const Articles = () => {
                   <div className="project-dataaa">
                     <h2>
                       Evaluation of Information Technology Implementation for
-                      Business Goal Improvement under Process{" "}
+                      Business Goal {" "}
                     </h2>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -190,24 +189,15 @@ const Articles = () => {
                     </div>
                     <div className="modle-para">
                       <p>
-                        {" "}
-                        Improving organizational performance can be achieved
-                        through business process redesign (BPR). When it comes
-                        to modern work practices, organizations must often
-                        redesign their processes to keep up. This is where
-                        enterprise software comes in, offering a common data
-                        infrastructure that enables different parts of the
-                        organization to access all necessary financial data. The
-                        architecture of network accounting business process is
-                        divided into three layers. The core layer lies in
+                      <span className="Abstract">Abstract:</span> <br />
+
+Improving organizational performance can be achieved through business process redesign (BPR). When it comes to modern work practices, organizations must often redesign their processes to keep up. This is where enterprise software comes in, offering a common data infrastructure that enables different parts of the organization to access all necessary financial data. The architecture of network accounting business process is divided into three layers. The core layer lies in the enterprise LAN that it can integrate six business processes information into one unity of financial information and non-financial information, including purchasing, inventory, production, sales, finance and customer service, and it can generate flexibly a variety of accounting statements to meet fully the information users’ demands by providing more complete and more valuable related information. The second layer lies in Intranet among enterprises based on the core layer that it can support the link of business processes and the inter-sharing of information among node enterprises of SCM and other external enterprises. The third layer lies in Internet based on the second layer that it can fit society, enterprise and individual together, the specific lays the solid foundation of business collaboration, remote management, online management and centralized management. The operating mechanisms of the network accounting business processes are as follows. When the business event occurs, the probe can get the event information in real-time and the result is stored in the database. Meanwhile, the drive controller can control the business events in real-time by gaining control criteria and standards from database. In case the standard is exceeded, the event is not allowed to occur. Enterprise’ business staff or external personnel can output automatically the required results through report tools if they had the reading authority. Supported the information system and optimizing processes, the managers can directly use the business event information, criteria and standards to control, guide, regulate and restrict management and operation in real-time, improving operation efficiency and effect. The enterprise can share the accounting information with node enterprises of SCM to bring about JIT that improve the core competitiveness of enterprise. This helps them to function more efficiently, cut costs, enhance customer service, and minimize the risk of human errors. Justifying projects has become increasingly crucial as information systems become more expensive and vital to organizations. IT can pursue two distinct goals: lowering operating costs or improving productivity, based on the difference between operational effectiveness and strategic positioning.
                       </p>
                     </div>
                     <div className="modal-body">
                       <div className="row">
                         <div className="col-md-12">
-                          <div className="igm-area-projecta-model">
-                            <img src={pro2} alt="" className="img-fluid" />
-                          </div>
+                         
 
                           <div className="project-dataa">
                             <div className="d-flex project-dataam">
@@ -297,22 +287,14 @@ const Articles = () => {
                     </div>
                     <div className="modle-para">
                       <p>
-                        {" "}
-                        Today’s healthcare sector is a dynamic industry that can
-                        only support innovations in the business world that
-                        address the needs of clients. The purpose of this paper
-                        is to identify some of the growing trends of innovation
-                        in the context of the healthcare organization and
-                        practice with specific reference to technology,{" "}
+                        <span className="Abstract">Abstract :</span> <br />
+                      Today’s healthcare sector is a dynamic industry that can only support innovations in the business world that address the needs of clients. The purpose of this paper is to identify some of the growing trends of innovation in the context of the healthcare organization and practice with specific reference to technology, delivery of heath services, and system optimization. Analyzing the case studies or the current tendencies, the paper reveals the effects of these innovations on the quality of the caring service, on the effectiveness of a healthcare organization, and the future stability of a healthcare system. Furthermore, the paper examines the obstacles that hinder innovation and the legal frameworks that affect the business environment for sustainable growth and development recommendations. It is for this reason that the paper’s insights concretely highlight both the centrality and enduring importance of sustained innovation in realizing enduring positive changes in healthcare services as well as delivery. Keywords - Business Innovations, Healthcare, Sustainable Growth, Emerging Models, Healthcare Technology, Patient Care, Healthcare Efficiency, Telemedicine, Remote Patient Monitoring, Electronic Health Records (EHR), Artificial Intelligence, Machine Learning, Patient-Centered Care, Integrated Care Systems, Value-Based Care, Lean Management, Process Improvement, Automation, Robotics, Regulatory Compliance
                       </p>
                     </div>
                     <div className="modal-body">
                       <div className="row">
                         <div className="col-md-12">
-                          <div className="igm-area-projecta-model">
-                            <img src={pro3} alt="" className="img-fluid" />
-                          </div>
-
+                        
                           <div className="project-dataa">
                             <div className="d-flex project-dataam">
                               <a
@@ -335,6 +317,26 @@ const Articles = () => {
                   </div>
                 </div>
               </div>
+            
+            </div>
+          </div>
+        </div>
+
+        {/* <!-- Button trigger modal -->  */}
+      </div>
+
+      <div className="work-areaa mb-10">
+        <div className="container-fluid">
+          <div className="container">
+            <div className="row">
+              <div className="title-area text-center" id="Publication">
+                <h3>Thesis</h3>
+              </div>
+            </div>
+            <div className="row mt-60">
+
+
+
               <div className="col-md-4">
                 <div
                   className="work-dataa"
@@ -398,21 +400,14 @@ const Articles = () => {
                       </div>
                       <div className="modle-para">
                         <p>
-                          {" "}
-                          Water is a vital element in our environment but day by
-                          day water pollution is increasing in an alarming rate
-                          in our country. In Bangladesh’s perspective,
-                          industries such as textile and ready-made garments
-                          (RMG) contribute
+                        <span className="Abstract">Abstract</span>
+Water is a vital element in our environment but day by day water pollution is increasing in an alarming rate in our country. In Bangladesh’s perspective, industries such as textile and ready-made garments (RMG) contribute to a massive amount of waste or effluent. Effluent treatment plant (ETP) are used to remove as much suspended solids from wastewater as possible before it gets back to the environment. However, according to a report published by the Environment and forests ministry, seven state-run factories don’t have any effluent treatment plant (ETP) to treat their waste before disposal. And also even the factories which has ETP do not always keep the ETP up and running because it consumes a lot of electricity. The purpose of our research is to establish a setup which will monitor the real-time quality of water outside the industries and inform us whether the ETP is turned on or not with the help of E-IoT and various classification algorithm. It will also predict the seasonal impact where the ETP might be turned off again and what will be the quality of water with the help of various machine learning and deep learning algorithms such as CNN, KNN and LSTM. We have also tracking the sensor value for monitoring and the ETP outlet with RGB color analysis. We have successfully achieved an accuracy of 99% for KNN, 97.5% for CNN and 94.9% forecasting model accuracy for LSTM.
                         </p>
                       </div>
                       <div className="modal-body">
                         <div className="row">
                           <div className="col-md-12">
-                            <div className="igm-area-projecta-model">
-                              <img src={pro4} alt="" className="img-fluid" />
-                            </div>
-
+                         
                             <div className="project-dataa">
                               <div className="d-flex project-dataam">
                                 <a
