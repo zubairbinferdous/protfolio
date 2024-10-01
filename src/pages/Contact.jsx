@@ -6,7 +6,7 @@ const Contact = () => {
   const fadeInUp = {
     hidden: {
       opacity: 0,
-      y: 60, // Starts below the normal position
+      y: 20, // Starts below the normal position
     },
     visible: {
       opacity: 1,
@@ -33,7 +33,7 @@ const Contact = () => {
       className="title-area text-center"
       initial="hidden"
       whileInView="visible" // Triggers the animation when the section comes into view
-      viewport={{ once: false, amount: 0.5}} // Only animate once, when 20% is visible
+      viewport={{ once: false, amount: 0.3}} // Only animate once, when 20% is visible
       variants={fadeInUp} // Use the defined fadeInUp variants
     >
               <div className="from-area">

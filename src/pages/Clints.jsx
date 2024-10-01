@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import React from "react";
 import "../App.css";
 import cho from '../assets/cho.jpg';
@@ -21,13 +20,7 @@ const Clints = () => {
   };
   return (
     <div>
-         <motion.div
-      className="title-area text-center"
-      initial="hidden"
-      whileInView="visible" // Triggers the animation when the section comes into view
-      viewport={{ once: false, amount: 0.5}} // Only animate once, when 20% is visible
-      variants={fadeInUp} // Use the defined fadeInUp variants
-    >
+       
          <div className="section"id='Testimonials'>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A dicta porro repellat et numquam quidem veritatis? Voluptatibus consectetur, repudiandae culpa assumenda, facere totam adipisci illum consequuntur incidunt et molestias at?</p>
       </div>
@@ -43,11 +36,11 @@ const Clints = () => {
         
           
 
-            <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
+ <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel" data-bs-pause="false">
   <div className="carousel-inner">
 
 
-    <div className="carousel-item active" data-bs-interval="2000">
+    <div className="carousel-item active"  data-bs-interval="2000">
     <div className="row  margin-500">
               <div className="col-md-4">
                 <div className="test-data-area">
@@ -105,20 +98,13 @@ const Clints = () => {
     </div>
 
   </div>
-  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Previous</span>
-  </button>
-  <button className="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Next</span>
-  </button>
+ 
 </div>
           </div>
         </div>
       </div>
       
-      </motion.div>
+     
     </div>
   );
 };
