@@ -1,9 +1,41 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+/* Global box-sizing for consistency */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Ensure no horizontal scrolling occurs */
+/* html,
+body {
+  margin: 0;
+  padding: 0;
+  
+  width: 100%;
+} */
+
+/* Remove any unwanted space or overflow caused by animations */
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+/* Handle navbar and content layout */
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
 html {
   scroll-behavior: smooth;
 }
 body {
   background: #212428;
+  font-family: "Ubuntu", sans-serif !important;
 }
 .marginBottom {
   margin-bottom: 80px;
@@ -57,6 +89,7 @@ body {
   color: white;
   font-size: 36px;
   margin-bottom: 10px;
+  font-family: "Ubuntu", sans-serif;
 }
 .hero-data-area p {
   font-weight: 500;
@@ -64,6 +97,7 @@ body {
   font-size: 18px;
   margin-top: 25px;
   margin-bottom: 20px;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .hero-data-area h3 {
@@ -83,6 +117,7 @@ body {
   -webkit-text-fill-color: transparent;
   padding: 0px;
   margin: 0px;
+  font-family: "Ubuntu", sans-serif;
 }
 
 /* .hero-data-area a {
@@ -122,6 +157,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding: 140px 0px 30px 0px;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .mt-60 {
@@ -2050,7 +2086,666 @@ footer {
   width: 102px;
   height: 52px;
 }
-@media (max-width: 575.98px) {
+.modal {
+  background-color: #212428c0;
+}
+
+.from-data input {
+  width: 96%;
+  border: 2px solid #f8094a;
+  height: 50px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: #141514;
+  font-size: 18px;
+  padding-left: 20px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: white;
+}
+
+.from-data textarea {
+  width: 96%;
+  background: none;
+  border: 2px solid #f8094a;
+  height: 200px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  padding-left: 20px;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding-top: 20px;
+  color: white;
+}
+
+.from-data button {
+  padding: 7px 25px;
+  border: 2px solid #f8094a;
+  background-color: #f8094a;
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.from-data {
+  box-shadow: 1px 1px 27px rgba(83, 83, 83, 0.795);
+}
+
+.from-data {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  background-color: #212428;
+  padding: 10% 5%;
+  margin-top: 140px;
+  border-radius: 20px;
+  margin-bottom: 100px;
+}
+
+.from-data input {
+  width: 96%;
+  border: 2px solid #f8094a;
+  height: 50px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: #212428;
+  font-size: 18px;
+  padding-left: 20px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: white;
+}
+
+footer {
+  background-color: #212428;
+  padding: 30px 0px;
+}
+
+.logo-area img {
+  width: 111px;
+  height: 58px;
+}
+
+.work-datae {
+  box-shadow: 1px 1px 27px rgba(83, 83, 83, 0.795);
+}
+
+.work-datae {
+  background-color: #212428;
+  border-radius: 15px;
+  padding: 3% 3%;
+  border: 3px solid #00000000;
+  margin-bottom: 20px;
+  transition: all linear 0.4s;
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+  width: 100%;
+}
+
+.test-data-area {
+  margin: 15px;
+  background-color: #0056b3;
+}
+
+.test-img-area {
+  margin: 20px;
+  width: 100%;
+  height: 200px;
+  overflow: hidden !important;
+  padding: 20px 0px;
+}
+
+.test-img-area img {
+  width: 90%;
+  height: 200px;
+}
+
+.test-data-areaa .name h2 {
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+  margin: 0px 15px;
+}
+.test-data-areaa .com p {
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  margin: 0px 15px;
+}
+
+.test-data-area {
+  /* margin: 15px 20px; */
+  background-color: #212428;
+  padding: 10px;
+
+  border-radius: 10px;
+}
+.test-data-area {
+  /* margin: 15px 20px; */
+  background-color: #212428;
+
+  border-radius: 10px;
+  box-shadow: 1px 1px 27px rgba(83, 83, 83, 0.795);
+}
+
+.review-data-area h2 {
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+}
+.review-data-area p {
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+}
+
+.test-img-area img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.test-img-area {
+  width: 100%;
+  height: 200px;
+  overflow: hidden !important;
+  padding: 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.test-img-area {
+  width: 89%;
+  height: 200px;
+  overflow: hidden !important;
+  padding: 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.test-data-areaa .name h2 {
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+  margin: 8px 15px;
+  text-align: center;
+}
+
+.test-data-areaa .com p {
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  margin: 8px 15px;
+  text-align: center;
+}
+
+.review-data-area h2 {
+  font-size: 50px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.review-data-area p {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.test-area-data-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 326px;
+  background-color: #212428;
+  margin-top: 10px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 27px rgba(83, 83, 83, 0.795);
+}
+
+.review-data-area {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+}
+
+.margin-500 {
+  margin: 100px;
+}
+
+.custom-carousel-control {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  border-radius: 50%; /* Make the button round */
+  width: 50px; /* Set a specific width */
+  height: 50px; /* Set a specific height */
+  bottom: 20px; /* Position them at the bottom */
+  position: absolute;
+  z-index: 1;
+}
+
+.carousel-control-prev {
+  left: 20px; /* Position left */
+}
+
+.carousel-control-next {
+  right: 20px; /* Position right */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: white; /* Make icons visible on dark background */
+  border-radius: 50%;
+  padding: 10px; /* Add padding for better visibility */
+}
+
+.custom-carousel-control:hover {
+  background-color: rgba(0, 0, 0, 0.7); /* Darken background on hover */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #101010;
+  border-radius: 50%;
+  display: none;
+  padding: 10px;
+}
+
+.from-data input {
+  width: 96%;
+  border: 2px solid #f8094900;
+  height: 50px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: #161616;
+  font-size: 16px;
+  padding-left: 20px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: white;
+}
+.from-data textarea {
+  width: 96%;
+  background: none;
+  border: 2px solid #f8094900;
+  height: 200px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  padding-left: 20px;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding-top: 20px;
+  background-color: #161616;
+  color: white;
+}
+
+.from-data textarea:hover {
+  border: 2px solid #f8094a;
+}
+
+.from-data input:hover {
+  border: 2px solid #f8094a;
+}
+
+.test-data-areaa .com p {
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  margin: 8px 15px;
+  text-align: center;
+  color: red;
+}
+
+.work-area {
+  background-color: #212428;
+  padding-bottom: 0px;
+}
+
+.skills-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.skill {
+  margin-bottom: 20px;
+}
+
+.skill h3 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.skill-bar {
+  width: 100%;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 20px;
+  width: 0;
+  background-color: #007bff;
+  border-radius: 10px;
+  transition: width 2s ease-in-out;
+}
+
+/* Define different skill levels */
+.progress.html {
+  width: 90%;
+}
+.progress.css {
+  width: 85%;
+}
+.progress.js {
+  width: 80%;
+}
+.progress.react {
+  width: 85%;
+}
+.progress.nextjs {
+  width: 75%;
+}
+.progress.mongodb {
+  width: 70%;
+}
+.progress.postgresql {
+  width: 65%;
+}
+.progress.mysql {
+  width: 75%;
+}
+.progress.redux {
+  width: 80%;
+}
+.progress.node {
+  width: 80%;
+}
+.progress.laravel {
+  width: 70%;
+}
+
+.progress {
+  height: 5px;
+  width: 0;
+  background-color: #ce1b16;
+  border-radius: 10px;
+  transition: width 2s ease-in-out;
+}
+
+.skill h3 {
+  margin-bottom: 4px;
+  font-size: 1.2rem;
+  font-size: 12px;
+  color: white;
+}
+
+.data-area-tab-item2 {
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  /* margin-bottom: 50px; */
+  /* margin-right: 30px; */
+  /* margin-left: 30px; */
+  margin: 42px 40px 30px 40px;
+  box-shadow: 1px 1px 30px rgba(83, 83, 83, 0.795);
+}
+
+.hero-data-area h5 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #7c838e;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.hero-download-area a {
+  padding: 15px 20px;
+  color: #212428;
+  background-color: #ff6347;
+  border: 2px soild rgb(247, 244, 244);
+  text-decoration: none;
+  font-weight: 700;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.icon-area h4 {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 80px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.title-area h3 {
+  font-size: 50px;
+  background: -o-linear-gradient(left, #eeeeee 0%, #ffffff 100%);
+  background: linear-gradient(to right, #ffffff 0%, #ffffff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 50px 0px 30px 0px;
+  text-transform: uppercase;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.button-group button {
+  flex: 1;
+  margin: 5px;
+  padding: 15px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: #212428;
+  /* border: 1px solid #ddd; */
+  border-radius: 5px;
+  color: #ffffff;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  font-size: 17px;
+  text-transform: uppercase;
+  box-shadow: 1px 1px 10px rgba(83, 83, 83, 0.795);
+  font-family: "Ubuntu", sans-serif;
+}
+
+.tab-data h1 {
+  font-weight: 800;
+  font-size: 40px;
+  color: #f8094a;
+  text-transform: uppercase;
+  margin: 32px 0px 0px 47px;
+  display: block;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.project-dataaa h2 {
+  transition: all linear 0.3s;
+  font-size: 17px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.project-dataaa h5 {
+  font-size: 18px;
+  color: white;
+  text-transform: uppercase;
+  transition: all linear 0.3s;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.review-data-area p {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.review-data-area h2 {
+  font-size: 50px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.contact-area-info h2 {
+  font-weight: 700;
+  font-size: 40px;
+  color: white;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.navbar-nav li a {
+  color: #ffffff;
+  font-weight: 500;
+  margin-left: 8px;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding: 20px 10px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.hero-data-area h5 {
+  display: inline-block;
+  border-right: 3px solid #a8b2be;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: blink 0.75s step-end infinite;
+  height: 47px;
+}
+
+.hero-data-area h5 {
+  font-family: "Ubuntu", sans-serif; /* Font for typewriter effect */
+  font-size: 34px; /* Adjust font size as needed */
+  color: #fff; /* Text color */
+}
+
+.hero-data-area h5 {
+  display: inline-block;
+  border-right: 3px solid #a8b2be;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: blink 0.75s step-end infinite;
+  height: 47px;
+}
+
+.tab-data-title h5 {
+  color: #ff6347;
+  font-size: 16px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.tab-data-title h3 {
+  font-weight: 500;
+  font-size: 19px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  color: #c4cfde;
+}
+.profile-data-area {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+@keyframes blink {
+  0%,
+  100% {
+    border-color: transparent; /* Invisible cursor */
+  }
+  50% {
+    border-color: #ff6347; /* Visible cursor */
+  }
+}
+
+.project-dataaa {
+  background-color: #212428;
+  padding: 15px 18px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  transition: all linear 0.3s;
+  width: 100%;
+  height: 140px;
+  text-align: left;
+}
+
+.tab-data-title h3 {
+  font-weight: 500;
+  font-size: 19px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  color: #c4cfde;
+  padding: 0px;
+}
+
+.data-area-tab-item {
+  text-align: left;
+}
+.skill h3 {
+  padding: 0px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.tab-data-title h5 {
+  color: #ff6347;
+  font-size: 16px;
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+}
+
+.service-dataa h2 {
+  font-weight: 800;
+  font-size: 26px;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+  margin-top: 11px;
+}
+
+.service-dataa {
+  background-color: #212428;
+  border-radius: 15px;
+  padding: 3% 5%;
+  border: 2px solid #00000000;
+  margin: 35px 15px 35px 15px;
+  transition: all linear 0.4s;
+  color: white;
+  height: 315px;
+  box-shadow: 1px 1px 27px rgba(83, 83, 83, 0.795);
+}
+.mobile_title {
+  display: none;
+}
+
+.tab-datatt {
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+  margin-left: 48px;
+}
+@media (max-width: 600.98px) {
+  .pc_title {
+    display: none;
+  }
+  .mobile_title {
+    display: block;
+  }
   .modal-title {
     color: white;
     font-weight: 800;
@@ -2361,7 +3056,7 @@ footer {
   }
   .from-data input {
     width: 96%;
-    border: 2px solid #8d59f7;
+    border: 2px solid #ff6347;
     height: 43px;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -2376,7 +3071,7 @@ footer {
   .from-data textarea {
     width: 96%;
     background: none;
-    border: 2px solid #8d59f7;
+    border: 2px solid #ff6347;
     height: 138px;
     border-radius: 10px;
     margin-bottom: 30px;
@@ -2389,8 +3084,8 @@ footer {
   }
   .from-data button {
     padding: 4px 16px;
-    border: 2px solid #8d59f7;
-    background-color: #8d59f7;
+    border: 2px solid #f8094a;
+    background-color: #f8094a;
     border-radius: 5px;
     color: white;
     font-weight: 500;
@@ -2604,6 +3299,7 @@ footer {
     font-weight: 700;
     color: white;
     padding: 38px 0px 17px 0px;
+    font-family: "Ubuntu", sans-serif;
   }
   .title-area h3 {
     font-size: 28px;
@@ -2621,6 +3317,7 @@ footer {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 38px 0px 17px 0px;
+    font-family: "Ubuntu", sans-serif;
   }
 
   .tab-data h1 {
@@ -2630,6 +3327,7 @@ footer {
     text-transform: uppercase;
     margin: 30px 0px;
     display: block;
+    font-family: "Ubuntu", sans-serif;
   }
 
   .tab-area-para p {
@@ -2637,6 +3335,7 @@ footer {
     font-size: 15px;
     margin-bottom: 10px;
     text-transform: uppercase;
+    font-family: "Ubuntu", sans-serif;
     color: #ffffff;
   }
 
@@ -2646,6 +3345,7 @@ footer {
     font-size: 14px;
     margin-bottom: 10px;
     text-transform: capitalize;
+    font-family: "Ubuntu", sans-serif;
   }
   .tab-data-title-two h2 {
     font-weight: 500;
@@ -2653,6 +3353,7 @@ footer {
     font-size: 12px;
     margin-bottom: 10px;
     text-transform: capitalize;
+    font-family: "Ubuntu", sans-serif;
   }
 
   .data-area-tab-item {
@@ -2679,6 +3380,7 @@ footer {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 38px 0px 17px 0px;
+    font-family: "Ubuntu", sans-serif;
   }
   /* .tab-button {
     justify-content: center;
@@ -2714,6 +3416,7 @@ footer {
     border-radius: 9px;
     margin-top: 5px;
     margin-bottom: 20px;
+    font-family: "Ubuntu", sans-serif;
   }
 
   .service-data {
@@ -2768,6 +3471,7 @@ footer {
     font-size: 15px;
     text-transform: uppercase;
     color: rgba(218, 218, 218, 0.801);
+    font-family: "Ubuntu", sans-serif;
   }
 
   .service-dataa h2 {
@@ -2776,6 +3480,7 @@ footer {
     text-transform: uppercase;
     margin-bottom: 20px;
     margin-top: 20px;
+    font-family: "Ubuntu", sans-serif;
   }
 
   .hero-data-area h1 {
@@ -2784,6 +3489,7 @@ footer {
     font-size: 16px;
     margin-bottom: 10px;
     margin-top: 52px;
+    font-family: "Ubuntu", sans-serif;
   }
 
   .icon-data-area {
@@ -2797,6 +3503,7 @@ footer {
     border-radius: 5px;
     position: relative;
     transition: all linear 0.4s;
+    font-family: "Ubuntu", sans-serif;
   }
 
   .button-group button {
@@ -2819,6 +3526,7 @@ footer {
     font-size: 11px;
     text-transform: uppercase;
     box-shadow: 1px 1px 10px rgba(83, 83, 83, 0.795);
+    font-family: "Ubuntu", sans-serif;
   }
   .tab-area-para p {
     font-weight: 600;
@@ -2826,6 +3534,7 @@ footer {
     margin-bottom: 10px;
     text-transform: uppercase;
     color: #ffffff;
+    font-family: "Ubuntu", sans-serif;
   }
 
   .data-area-tab-item {
@@ -2844,6 +3553,7 @@ footer {
   .data-area-tab-item span {
     font-size: 12px;
     color: #888;
+    font-family: "Ubuntu", sans-serif;
   }
 
   .service-area {
@@ -2879,7 +3589,265 @@ footer {
   .project-dataaa h2:hover {
     color: rgb(194, 16, 16);
   }
+  .data-area-tab-item {
+    margin: 0px 0px 40px 0px;
+  }
+
+  .off-mobile {
+    display: none;
+  }
+  footer {
+    background-color: #212428;
+    padding: 15px 0px;
+  }
+  .margin-500 {
+    margin: 18px;
+  }
+  .test-img-area img {
+    width: 109px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .test-img-area {
+    width: 86%;
+    height: 200px;
+    overflow: hidden !important;
+    padding: 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .test-img-area {
+    width: 86%;
+    height: 120px;
+    overflow: hidden !important;
+    padding: 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .review-data-area h2 {
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    font-family: "Ubuntu", sans-serif;
+  }
+  .review-data-area p {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: "Ubuntu", sans-serif;
+  }
+
+  .test-area-data-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 191px;
+    background-color: #212428;
+    margin-top: 10px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 27px rgba(83, 83, 83, 0.795);
+  }
+  .test-data-areaa .name h2 {
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    margin: 8px 15px;
+    text-align: center;
+  }
+  .test-img-area img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+  }
+
+  .work-dataa {
+    background-color: #212428;
+    border-radius: 15px;
+    padding: 3% 3%;
+    border: 2px solid #00000000;
+    margin-bottom: 50px;
+    transition: all linear 0.4s;
+    box-shadow: 1px 1px 30px rgba(83, 83, 83, 0.795);
+    position: relative;
+    overflow: hidden;
+    height: 420px;
+    margin: 0px 0px 55px 0px;
+  }
+  .data-area-tab-item {
+    height: 220px;
+  }
+  .data-area-tab-item2 {
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* margin-bottom: 50px; */
+    /* margin-right: 30px; */
+    /* margin-left: 30px; */
+    margin: 0px 0px 50px 0px;
+    box-shadow: 1px 1px 30px rgba(83, 83, 83, 0.795);
+  }
+  .navbar {
+    background-color: #212428;
+  }
+  .section p {
+    opacity: 0;
+    height: 35px;
+  }
+  .navbar-toggler-icon {
+    background-image: url(
+      data:image/svg + xml;charset=UTF8,
+      %3CsvgviewBox="0 0 30 30"xmlns="http://www.w3.org/2000/svg"%3E%3Cpathstroke="rgba(255, 99, 71, 1)"stroke-width="2"stroke-linecap="round"stroke-miterlimit="10"d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E
+    );
+    z-index: 100000;
+  }
+
+  .test-data-area {
+    margin: 0px;
+    /* background-color: #0056b3; */
+  }
+
+  .hero-download-area a {
+    padding: 12px 20px;
+    color: #212428;
+    background-color: #ff6347;
+    border: 2px soild rgb(247, 244, 244);
+    text-decoration: none;
+    font-weight: 700;
+    font-family: "Ubuntu", sans-serif;
+  }
+  .from-data {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    background-color: #212428;
+    padding: 10% 5%;
+    margin-top: 40px;
+    border-radius: 20px;
+    margin-bottom: 24px;
+  }
+  .from-data textarea {
+    width: 96%;
+    background: none;
+    border: 2px solid #ff6347;
+    height: 138px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    padding-left: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding-top: 20px;
+    color: white;
+    background-color: #141514;
+  }
+  .hero-download-area a {
+    padding: 9px 15px;
+    color: #212428;
+    background-color: #ff6347;
+    border: 2px soild rgb(247, 244, 244);
+    text-decoration: none;
+    font-weight: 700;
+    font-family: "Ubuntu", sans-serif;
+  }
+  .service-dataa p {
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: rgba(218, 218, 218, 0.801);
+    font-family: "Ubuntu", sans-serif;
+  }
+  .hero-data-area h5 {
+    font-size: 15px;
+    font-weight: 800;
+    color: #7c838e;
+    padding: 0px;
+    margin: 0px;
+    height: 20px;
+  }
+
+  .tab-data-title h3 {
+    font-weight: 500;
+    font-size: 19px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    color: #c4cfde;
+    padding: 0px;
+  }
+
+  .data-area-tab-item {
+    text-align: left;
+  }
+  .skill h3 {
+    padding: 0px;
+    text-align: left;
+    font-size: 14px;
+  }
+
+  .tab-data-title h5 {
+    color: #ff6347;
+    font-size: 16px;
+    font-family: "Ubuntu", sans-serif;
+    text-transform: uppercase;
+  }
+
+  .service-dataa h2 {
+    font-weight: 800;
+    font-size: 26px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+    margin-top: 11px;
+  }
+
+  .service-dataa {
+    background-color: #212428;
+    border-radius: 15px;
+    padding: 3% 5%;
+    border: 2px solid #00000000;
+    margin: 35px 15px 35px 15px;
+    transition: all linear 0.4s;
+    color: white;
+    height: 315px;
+    box-shadow: 1px 1px 27px rgba(83, 83, 83, 0.795);
+  }
+  .tab-data-title h3 {
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    color: #c4cfde;
+    padding: 0px;
+  }
 }
-.modal {
-  background-color: #212428c0;
+
+/* .fadeInRight {
+  animation: fadeInRight linear;
+  animation-timeline: view();
+  animation-range: 0 35%;
 }
+
+.animation-area {
+  animation: animation linear;
+  animation-timeline: view();
+  animation-range: 0 35%;
+}
+.animation-areaTwo {
+  animation: reveal linear;
+  animation-timeline: view();
+  animation-range: 0 35%;
+}
+.animation-areaTwo {
+  animation: reveal linear;
+  animation-timeline: view();
+  animation-range: 0 35%;
+}
+.animation-areaTwo-two {
+  animation: revealtwo linear;
+  animation-timeline: view();
+  animation-range: 0 35%;
+} */

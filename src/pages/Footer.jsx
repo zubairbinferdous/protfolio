@@ -1,9 +1,9 @@
 import React from "react";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo.jpg";
 const Footer = () => {
   return (
     <footer>
-        <div className="section"id='footer'>
+        <div className="section off-mobile"id='footer'>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A dicta porro repellat et numquam quidem veritatis? Voluptatibus consectetur, repudiandae culpa assumenda, facere totam adipisci illum consequuntur incidunt et molestias at?</p>
       </div>
       <div className="container">
