@@ -21,9 +21,9 @@ const Service = () => {
   };
     return (
         <div>
-                <div className="section"id='Services'>
+            <div className="section"id='Services'>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A dicta porro repellat et numquam quidem veritatis? Voluptatibus consectetur, repudiandae culpa assumenda, facere totam adipisci illum consequuntur incidunt et molestias at?</p>
-      </div>
+            </div>
           <div className="service-area mb-10">
           <div className="container-fluid">
                 <div className="container">
@@ -136,15 +136,44 @@ const Service = () => {
                           </motion.div>
 
                         </div>
+                        <div className="col-md-4 fadeInRight">
+
+                        <motion.div
+      className="title-area text-center"
+      initial="hidden"
+      whileInView="visible" // Triggers the animation when the section comes into view
+      viewport={{ once: false, amount: 0.5}} // Only animate once, when 20% is visible
+      variants={fadeInUp} // Use the defined fadeInUp variants
+    >
+
+                        <div className="service-dataa">
+                        <FontAwesomeIcon icon={faTrello} />
+                        <h2>Project Management Institute (PMI) </h2>
+                        <h2>Certified Member </h2>
+                        <h2>Member ID: 10318753 </h2>
+{/* <p>I offer comprehensive website maintenance services to ensure your site runs smoothly, stays secure, and performs optimally. From regular updates to troubleshooting.</p> */}
+
+                          </div>
+
+
+                          </motion.div>
+
+                        </div>
 
                         <div className="col-md-4 fadeInRight">
                         <div className="service-daata">
                            
-
                          <div className="icon">
                         
                          </div>
                         </div>
+                        </div>
+                    </div>
+
+                    <div className="row" id=''>
+                        <div className="title-area text-center">
+                        <h3>  My membership </h3>
+                        <p>  From web applications to digital marketing, brand promotion, and eCommerce solutions, I provide everything you need to succeed in the digital world.</p>
                         </div>
                     </div>
                 </div>

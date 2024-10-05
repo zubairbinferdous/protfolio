@@ -260,7 +260,7 @@ const About = () => {
                     <h5> Los Angeles California, usa</h5>
                   </div>
                   <div className="tab-data-title-three">
-                    <span>Nov 2023 – Apr 2024</span>
+                    <span>Nov 2023 – feb 2024</span>
                   </div>
                 </div>
       </motion.div>
@@ -285,7 +285,7 @@ const About = () => {
                     <h5>Dhaka, Bangladesh</h5>
                   </div>
                   <div className="tab-data-title-three">
-                    <span>Jul 2021  – Mar 2023</span>
+                    <span>aug 2021  – Mar 2023</span>
                   </div>
                 </div>
       </motion.div>
@@ -312,13 +312,13 @@ const About = () => {
                     <h5>Dhaka, Bangladesh</h5>
                   </div>
                   <div className="tab-data-title-three">
-                    <span>Jan 2020 – Jun 2021</span>
+                    <span>Apr 2020 – Jul 2021</span>
                   </div>
                 </div>
       </motion.div>
               </div>
 
-              <div className="col-md-6 animation-area">
+              {/* <div className="col-md-6 animation-area">
               <motion.div
       className="title-area text-center"
       initial="hidden"
@@ -342,7 +342,7 @@ const About = () => {
                   </div>
                 </div>
       </motion.div>
-              </div>
+              </div> */}
           {/* Add more experience items as needed */}
         </div>
       </div>

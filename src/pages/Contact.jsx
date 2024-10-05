@@ -6,13 +6,13 @@ const Contact = () => {
   const fadeInUp = {
     hidden: {
       opacity: 0,
-      y: 20, // Starts below the normal position
+      y: 40, // Starts below the normal position
     },
     visible: {
       opacity: 1,
       y: 0, // Ends at the normal position
       transition: {
-        duration: 0.8, // Duration of the animation
+        duration: 0.5, // Duration of the animation
         ease: 'easeOut', // Easing function for a smooth effect
       },
     },
@@ -25,6 +25,10 @@ const Contact = () => {
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A dicta porro repellat et numquam quidem veritatis? Voluptatibus consectetur, repudiandae culpa assumenda, facere totam adipisci illum consequuntur incidunt et molestias at?</p>
       </div>
       <div className="container-fluid contact-bg">
+      < div className="title-area text-center">
+                <h3> contact me</h3>
+            
+              </div>
         <div className="container">
           <div className="row" id="">
 
@@ -33,7 +37,7 @@ const Contact = () => {
       className="title-area text-center"
       initial="hidden"
       whileInView="visible" // Triggers the animation when the section comes into view
-      viewport={{ once: false, amount: 0.3}} // Only animate once, when 20% is visible
+      viewport={{ once: false, amount: 0.5}} // Only animate once, when 20% is visible
       variants={fadeInUp} // Use the defined fadeInUp variants
     >
               <div className="from-area">

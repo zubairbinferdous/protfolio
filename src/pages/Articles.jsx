@@ -214,13 +214,7 @@ Improving organizational performance can be achieved through business process re
                                 show details{" "}
                               </a>
 
-                              <a
-                                href="https://scholar.google.com/citations?user=sD6iCGEAAAAJ&hl=en"
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                Cited by : 23
-                              </a>
+                         
                               <a
                                 href="https://www.scirp.org/pdf/jdaip2024122_102870689.pdf"
                                 target="_blank"
@@ -339,13 +333,7 @@ Improving organizational performance can be achieved through business process re
                                 {" "}
                                 show details{" "}
                               </a>
-                              <a
-                                href="https://scholar.google.com/citations?user=sD6iCGEAAAAJ&hl=en"
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                Cited by : 0
-                              </a>
+                        
                               <a
                                 href="https://www.aijmr.com/papers/2024/5/1093.pdf"
                                 target="_blank"
@@ -454,13 +442,7 @@ Improving organizational performance can be achieved through business process re
                                 {" "}
                                 show details{" "}
                               </a>
-                              <a
-                                href="https://scholar.google.com/citations?user=sD6iCGEAAAAJ&hl=en"
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                Cited by : 0
-                              </a>
+                          
                               <a
                                 href="https://www.aijmr.com/papers/2024/5/1089.pdf"
                                 target="_blank"
@@ -570,14 +552,15 @@ Improving organizational performance can be achieved through business process re
                                 {" "}
                                 show details{" "}
                               </a>
-
                               <a
-                                href="https://scholar.google.com/citations?user=sD6iCGEAAAAJ&hl=en"
                                 target="_blank"
-                                rel="noreferrer"
+                                href="https://www.aijmr.com/papers/2024/5/1090.pdf" rel="noreferrer"
                               >
-                                Cited by : 0
+                                {" "}
+                                PDF{" "}
                               </a>
+
+                        
                       
                             </div>
                           </div>
@@ -680,13 +663,7 @@ Improving organizational performance can be achieved through business process re
                       {" "}
                       show details{" "}
                     </a> */}
-                         <a
-                                href="https://scholar.google.com/citations?user=sD6iCGEAAAAJ&hl=en"
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                Cited by : 0
-                              </a>
+                      
                               <a
                                 href="https://www.aijmr.com/papers/2024/5/1092.pdf"
                                 target="_blank"
@@ -828,13 +805,7 @@ Improving organizational performance can be achieved through business process re
                       {" "}
                       show details{" "}
                     </a> */}
-                         <a
-                                href="https://scholar.google.com/citations?user=sD6iCGEAAAAJ&hl=en"
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                Cited by : 0
-                              </a>
+                      
                               <a
                                 href="https://dspace.bracu.ac.bd/xmlui/bitstream/handle/10361/15736/15201033,%2016301052,%2018201193,%2019241023_CSE.pdf?sequence=1&isAllowed=y"
                                 target="_blank"
@@ -900,7 +871,7 @@ Improving organizational performance can be achieved through business process re
                           <div className="project-dataa">
                             <div className="d-flex project-dataam">
                               <a
-                                href="https://ieeexplore.ieee.org/abstract/document/92103899"
+                                href="https://ieeexplore.ieee.org/abstract/document/9210389"
                                 target="_blank"
                                 rel="noreferrer"
                               >
@@ -908,15 +879,9 @@ Improving organizational performance can be achieved through business process re
                                 show details{" "}
                               </a>
 
+                          
                               <a
-                                href="https://scholar.google.com/citations?user=sD6iCGEAAAAJ&hl=en"
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                Cited by : 44
-                              </a>
-                              <a
-                                href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9210389"
+                                href="https://d1wqtxts1xzle7.cloudfront.net/113990875/09210389-libre.pdf?1714499763=&response-content-disposition=inline%3B+filename%3DIoT_Based_Low_Cost_Robotic_Agent_Design.pdf&Expires=1728147320&Signature=AGM1YyZ6jq2hEqDjRcYXzsoLvj16sUvP5-AgkPQxK~Q6Od8fuQwmRCRBMis~a435wzPTNbGQIALSQb2ko4Oa4NTQmdVlgB7clI2sOq8krK7KjL7rl64Du5-M0z2M2Q6CB4H-kXSM9wDHakax75KKEQ4sbfM6d1LdwtgkqVWS8smW4YvMNYI5pXLnTkf8GO7uhX~tn091sgG9G9ynYg4cXDhcC8TDNT5Wd2lG78MWp22UFmuYFa3BEIxDFKXe0eOH7N9h~5M1J~x4C6XQD6dfWQZwqKNnep-JNwVr0jNkVrHzlNKK8kdZCy3FPl~mQJmbiZ96cUFK8pKsFe~KIcmH0g__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA"
                                 target="_blank"
                                 rel="noreferrer"
                               >
