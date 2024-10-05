@@ -9,6 +9,7 @@ import pro6 from "../assets/7.jpg";
 import pro1 from "../assets/p1.jpg";
 import pro2 from "../assets/p2.jpg";
 import pro3 from "../assets/p3.jpg";
+import pro8 from "../assets/pro8.jpg";
 
 const Articles = () => {
 
@@ -679,6 +680,129 @@ Improving organizational performance can be achieved through business process re
                   </div>
                 </div>
               </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              <div className="col-md-4 animation-areaTwo">
+              <motion.div
+                className="title-area text-center"
+                initial="hidden"
+                whileInView="visible" // Triggers the animation when the section comes into view
+                viewport={{ once: false, amount: 0.2 }} // Only animate once, when 20% is visible
+                variants={fadeInRight} // Use the defined fadeInRight variants
+              >
+                <div
+                  className="work-dataa "
+                  id="three"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal7000"
+                >
+                  <div className="project-imga">
+                    <div className="igm-area-projecta">
+                      <img src={pro8} alt="" className="img-fluid" />
+                    </div>
+                  </div>
+                  <div className="project-dataaa">
+                    <h2>
+                    Real-time Data and IoT: Unlocking New Business Models and Revenue Streams
+                    </h2>
+
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="36"
+                      height="36"
+                      fill="currentColor"
+                      className="bi bi-arrow-up-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                </motion.div>
+              </div>
+              
+              <div
+                className="modal fade"
+                id="exampleModal7000"
+                tabIndex="-1"
+                aria-labelledby="exampleModalLabel7000"
+                aria-hidden="true"
+              >
+                <div className="modal-dialog modal-dialog-centered modal-xl">
+                  <div className="modal-content">
+                    <div className="modal-header">
+                      <h1 className="modal-title fs-5" id="exampleModalLabel7000">
+                      Real-time Data and IoT: Unlocking New Business Models and Revenue Streams
+                      </h1>
+                      <div className="button-modal">
+                        <button
+                          type="button"
+                          className="close-button"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                          id=""
+                        >
+                          X
+                        </button>
+                      </div>
+                    </div>
+                    <div className="modle-para">
+                      <p>
+                        <span className="Abstract">Abstract :</span> <br />
+                        In an ever-increasingly integrated world of the Internet, the IoT (IoT) and big data analytics are considered fundamental drivers of business transformation, which propel organizations to knowledge and operational efficiency with the new value unlocked. This paper conducts an all-round study of how IoT technologies linked with real-time data analysis can be used to create the norn of the consumer and industrial markets. With precision case studies illustrated, the article shows in an actual fashion how these technologies are used specifically to ease operations, improve the customer's experience and create new innovative models of business. As the next step, it assesses the future revenue streams triggered by these technologies and advocates for the appropriate strategy shift to better harness their potential. IoT and real-time data implementation may create beneficial digital inventories; yet, it comes with a series of obstacles, namely the security and privacy issues. The project makes analyses in which risks are revealed and future prospects are given with possible ways of improving security systems and long-term business conception among other things. It shows the amazing potential of using IoT and real-time data and, at the same time, illustrates the importance for the companies to refine their strategies and be prepared to the situation where emerging technologies are becoming exciting opportunities but also the necessity to be safe and act ethically.
+                      </p>
+                    </div>
+                    <div className="modal-body">
+                      <div className="row">
+                        <div className="col-md-12">
+                        
+                          <div className="project-dataa">
+                            <div className="d-flex project-dataam">
+                              <a
+                                target="_blank"
+                                href="https://www.aijmr.com/research-paper.php?id=1091"
+                                rel="noreferrer"
+                              >
+                                {" "}
+                                show details{" "}
+                              </a>
+                              {/* <a target="_blank" href="https://iraj.in/journal/IJASEAT//paper_detail.php?paper_id=20896&nameBusiness_Innovations_in_Healthcare:_Emerging_Models_for_Sustainable_Growth" rel="noreferrer">
+                      {" "}
+                      show details{" "}
+                    </a> */}
+                      
+                              <a
+                                href="https://www.aijmr.com/papers/2024/5/1091.pdf"
+                                target="_blank"
+                                rel="noreferrer"
+                              >
+                                PDF
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             
             </div>
           </div>
@@ -881,7 +1005,7 @@ Improving organizational performance can be achieved through business process re
 
                           
                               <a
-                                href="https://d1wqtxts1xzle7.cloudfront.net/113990875/09210389-libre.pdf?1714499763=&response-content-disposition=inline%3B+filename%3DIoT_Based_Low_Cost_Robotic_Agent_Design.pdf&Expires=1728147320&Signature=AGM1YyZ6jq2hEqDjRcYXzsoLvj16sUvP5-AgkPQxK~Q6Od8fuQwmRCRBMis~a435wzPTNbGQIALSQb2ko4Oa4NTQmdVlgB7clI2sOq8krK7KjL7rl64Du5-M0z2M2Q6CB4H-kXSM9wDHakax75KKEQ4sbfM6d1LdwtgkqVWS8smW4YvMNYI5pXLnTkf8GO7uhX~tn091sgG9G9ynYg4cXDhcC8TDNT5Wd2lG78MWp22UFmuYFa3BEIxDFKXe0eOH7N9h~5M1J~x4C6XQD6dfWQZwqKNnep-JNwVr0jNkVrHzlNKK8kdZCy3FPl~mQJmbiZ96cUFK8pKsFe~KIcmH0g__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA"
+                                href="https://skayub.com/IoT_Based_Low_Cost_Robotic_Agent_Design.pdf"
                                 target="_blank"
                                 rel="noreferrer"
                               >

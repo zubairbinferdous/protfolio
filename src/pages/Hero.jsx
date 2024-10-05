@@ -13,10 +13,9 @@ import profile from "../assets/borobhai.jpg";
 
 const Hero = () => {
   const phrases = [
-    "Assistant Operation Manager",
-    "Project Manager",
-    "Administrator",
     "Full Stack Developer",
+    "Assistant Operation Manager",
+    "Administrator",
   ];
 
   const [currentPhraseIndex, setCurrentPhraseIndex] = useState(0);
@@ -83,7 +82,7 @@ const Hero = () => {
                     <br />
                     <span>forward-thinking organizations.</span>
                   </p>
-                  <div className="hero-download-area">
+                  {/* <div className="hero-download-area">
                     <a
                       href="https://www.skayub.com/cv.pdf"
                       target="_blank"
@@ -92,7 +91,7 @@ const Hero = () => {
                       {" "}
                       Download CV
                     </a>
-                  </div>
+                  </div> */}
 
                   <div className="icon-area">
                     <h4>find with me</h4>
