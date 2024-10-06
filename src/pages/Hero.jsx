@@ -2,10 +2,10 @@
 import {
   faGithub,
   faGoogleScholar,
-  faLinkedin,
-  faOrcid,
+  faLinkedin
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import id from '../assets/icon.svg';
 // eslint-disable-next-line no-unused-vars
 import React, { useEffect, useState } from "react";
 
@@ -16,7 +16,7 @@ const Hero = () => {
   const phrases = [
     "Full Stack Developer",
     "Assistant Operation Manager",
-    "Administrator",
+    "Business Development Executive",
   ];
 
   const [currentPhraseIndex, setCurrentPhraseIndex] = useState(0);
@@ -130,19 +130,15 @@ const Hero = () => {
                           icon={faGoogleScholar}
                         />
                       </a>
+
                       <a
                         href="https://orcid.org/0009-0002-2280-3130"
                         target="_blank"
                         rel="noreferrer"
                       >
-                        {" "}
-                        <FontAwesomeIcon
-                          className="icon-data-area"
-                          icon={faGoogleScholar}
-                        />
-
-<FontAwesomeIcon icon={faOrcid} />
+                        <img src={id} alt="" className="id"/>
                       </a>
+
                     </div>
                   </div>
                 </div>
