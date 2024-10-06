@@ -2,10 +2,10 @@
 import {
   faGithub,
   faGoogleScholar,
-  faLinkedin
+  faLinkedin,
+  faOrcid
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import id from '../assets/icon.svg';
 // eslint-disable-next-line no-unused-vars
 import React, { useEffect, useState } from "react";
 
@@ -130,16 +130,19 @@ const Hero = () => {
                           icon={faGoogleScholar}
                         />
                       </a>
-
                       <a
                         href="https://orcid.org/0009-0002-2280-3130"
                         target="_blank"
                         rel="noreferrer"
                       >
-                        <img src={id} alt="" className="id"/>
+                        {" "}
+                        <FontAwesomeIcon className="icon-data-area" icon={faOrcid} />
                       </a>
 
+
+
                     </div>
+                
                   </div>
                 </div>
               </div>
