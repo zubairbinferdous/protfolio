@@ -184,7 +184,7 @@ const Work = () => {
                               </a> */}
 
                               <a
-                                href="https://github.com/zubairbinferdous/pms"
+                                href="https://github.com/SKRJS/ProjectManagementTool"
                                 target="_blank"
                                 rel="noreferrer"
                               >
@@ -312,13 +312,13 @@ const Work = () => {
                                 live site{" "}
                               </a>
 
-                              {/* <a
-                                href="https://www.scirp.org/journal/paperinformation?paperid=133478"
+                              <a
+                                href="https://github.com/SKRJS/MultiVendorEcommerce"
                                 target="_blank"
                                 rel="noreferrer"
                               >
                                 git hub
-                              </a> */}
+                              </a>
                             </div>
                           </div>
                         </div>
@@ -426,7 +426,7 @@ const Work = () => {
                             <div className="d-flex project-dataam">
                               <a
                                 target="_blank"
-                                href="https://github.com/zubairbinferdous/augmedix"
+                                href="https://github.com/SKRJS/TradingWebsite"
                                 rel="noreferrer"
                               >
                                 {" "}
@@ -542,7 +542,7 @@ const Work = () => {
                             <div className="d-flex project-dataam">
                               <a
                                 target="_blank"
-                                href="https://github.com/zubairbinferdous/augmedix"
+                                href="https://github.com/SKRJS/PosManagementSystem"
                                 rel="noreferrer"
                               >
                                 {" "}
@@ -675,16 +675,13 @@ const Work = () => {
                             <div className="d-flex project-dataam">
                               <a
                                 target="_blank"
-                                href="https://github.com/zubairbinferdous/augmedix"
+                                href="https://github.com/SKRJS/Ecommerce"
                                 rel="noreferrer"
                               >
                                 {" "}
                                 github link{" "}
                               </a>
-                              {/* <a target="_blank" href="https://iraj.in/journal/IJASEAT//paper_detail.php?paper_id=20896&nameBusiness_Innovations_in_Healthcare:_Emerging_Models_for_Sustainable_Growth" rel="noreferrer">
-                      {" "}
-                      show details{" "}
-                    </a> */}
+                           
                             </div>
                           </div>
                         </div>
@@ -793,7 +790,7 @@ const Work = () => {
                             <div className="d-flex project-dataam">
                               <a
                                 target="_blank"
-                                href="https://github.com/zubairbinferdous/augmedix"
+                                href="https://github.com/SKRJS/CasinoOnline"
                                 rel="noreferrer"
                               >
                                 {" "}

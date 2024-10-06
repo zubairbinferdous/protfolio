@@ -52,7 +52,7 @@ const About = () => {
               <div className="col-md-12">
               <div className="profile text-center">
                 <p>
-                I am a versatile Assistant Operations Manager, Project Manager, Administrator, and Full Stack Developer with over 5 years of experience in optimizing operations, managing projects, and administration success. My over 3 years of freelance work with startups have honed my ability to streamline processes, enhance productivity, and achieve strategic goals. I am passionate about problem-solving, collaboration, and delivering impactful results.
+                I am a versatile Assistant Operations Manager, Administrator, and Full Stack Developer with over 3 years of experience in optimizing operations, managing projects, and administration success. My over 3 years of freelance work with startups have honed my ability to streamline processes, enhance productivity, and achieve strategic goals. I am passionate about problem-solving, collaboration, and delivering impactful results.
                 </p>
               </div>
             </div>
@@ -166,7 +166,7 @@ const About = () => {
                     <h5>Dhaka, Bangladesh</h5>
                   </div>
                   <div className="tab-data-title">
-                    <h3>Higher Secondary School Certificate in Science (HSC)</h3>
+                    <h3>Higher Secondary Certificate (HSC) in Science </h3>
                   </div>
                   <div className="tab-data-title-three">
                     <span>2013 – 2014</span>
@@ -194,7 +194,7 @@ const About = () => {
                     <h5>Dhaka, Bangladesh</h5>
                   </div>
                   <div className="tab-data-title">
-                    <h3>Secondary School Certificate in Science (SSC)</h3>
+                    <h3>Secondary School Certificate (SSC) in Science </h3>
                   </div>
                   <div className="tab-data-title-three">
                     <span>2002 – 2012</span>
@@ -209,7 +209,7 @@ const About = () => {
       {/* Experience Tab Content */}
       <div className={`tab-data ${activeTab === 'experience' ? 'active-tab' : ''}`} id="experience">
         <h1>Experience</h1>
-        <p className='tab-datatt'>5 years +</p>
+        <p className='tab-datatt'>3 years +</p>
         <div className="row ">
         <div className="col-md-6 animation-area">
 
@@ -279,7 +279,7 @@ const About = () => {
                     <p>Pushpodhara Properties Ltd</p>
                   </div>
                   <div className="tab-data-title">
-                    <h3>Administrative Manager</h3>
+                    <h3>Assistant Manager Administrative</h3>
                   </div>
                   <div className="tab-data-title">
                     <h5>Dhaka, Bangladesh</h5>
@@ -306,7 +306,7 @@ const About = () => {
                     <p>Sino Atrium Electronic Ind. Ltd</p>
                   </div>
                   <div className="tab-data-title">
-                    <h3>Business Development Administrator</h3>
+                    <h3>Business Development Executive</h3>
                   </div>
                   <div className="tab-data-title">
                     <h5>Dhaka, Bangladesh</h5>

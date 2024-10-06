@@ -3,6 +3,7 @@ import {
   faGithub,
   faGoogleScholar,
   faLinkedin,
+  faOrcid,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // eslint-disable-next-line no-unused-vars
@@ -128,6 +129,19 @@ const Hero = () => {
                           className="icon-data-area"
                           icon={faGoogleScholar}
                         />
+                      </a>
+                      <a
+                        href="https://orcid.org/0009-0002-2280-3130"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        {" "}
+                        <FontAwesomeIcon
+                          className="icon-data-area"
+                          icon={faGoogleScholar}
+                        />
+
+<FontAwesomeIcon icon={faOrcid} />
                       </a>
                     </div>
                   </div>
