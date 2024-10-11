@@ -3897,6 +3897,23 @@ footer {
   }
 }
 
+.from-data input {
+  width: 96%;
+  border: 2px solid #f8094900;
+  height: 50px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: #161616;
+  font-size: 15px;
+  padding-left: 20px;
+  font-weight: 500;
+  text-transform: lowercase;
+  color: white;
+}
+.from-data textarea {
+  font-size: 15px;
+}
+
 /* .fadeInRight {
   animation: fadeInRight linear;
   animation-timeline: view();

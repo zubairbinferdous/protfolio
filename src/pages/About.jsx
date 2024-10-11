@@ -306,7 +306,7 @@ const About = () => {
                     <p>Sino Atrium Electronic Ind. Ltd</p>
                   </div>
                   <div className="tab-data-title">
-                    <h3>Business Development Executive</h3>
+                    <h3>Admin Officer, Executive </h3>
                   </div>
                   <div className="tab-data-title">
                     <h5>Dhaka, Bangladesh</h5>

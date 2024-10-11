@@ -16,7 +16,6 @@ const Hero = () => {
   const phrases = [
     "Full Stack Developer",
     "Assistant Operation Manager",
-    "Business Development Executive",
   ];
 
   const [currentPhraseIndex, setCurrentPhraseIndex] = useState(0);
