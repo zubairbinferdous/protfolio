@@ -1,9 +1,6 @@
 // import { faFacebook } from '@fortawesome/free-solid-svg-icons';
 import {
-  faGithub,
-  faGoogleScholar,
-  faLinkedin,
-  faOrcid
+  faGithub
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // eslint-disable-next-line no-unused-vars
@@ -14,7 +11,8 @@ import profile from "../assets/borobhai.jpg";
 
 const Hero = () => {
   const phrases = [
-    "Full Stack Developer",
+    "Data Analyst",
+     "Researcher",
     "Assistant Operation Manager",
   ];
 
@@ -78,9 +76,8 @@ const Hero = () => {
                     {phrases[currentPhraseIndex].substring(0, currentCharIndex)}
                   </h5>
                   <p>
-                    Detail-oriented problem solver eager to drive success in{" "}
-                    <br />
-                    <span>forward-thinking organizations.</span>
+                  I am a passionate Data Analyst and Researcher who is committed to turning data into actionable insights and innovative solutions. With expertise in analytics, research, and technology, I bridge the gap from the most complex of challenges toward impactful results.{" "}
+                    
                   </p>
                   {/* <div className="hero-download-area">
                     <a
@@ -107,7 +104,7 @@ const Hero = () => {
                           icon={faGithub}
                         />
                       </a>
-                      <a
+                      {/* <a
                         href="https://www.linkedin.com/in/skayubalwahid/"
                         target="_blank"
                         rel="noreferrer"
@@ -117,8 +114,8 @@ const Hero = () => {
                           className="icon-data-area"
                           icon={faLinkedin}
                         />
-                      </a>
-                      <a
+                      </a> */}
+                      {/* <a
                         href="https://scholar.google.com/citations?user=sD6iCGEAAAAJ&hl=en"
                         target="_blank"
                         rel="noreferrer"
@@ -128,15 +125,15 @@ const Hero = () => {
                           className="icon-data-area"
                           icon={faGoogleScholar}
                         />
-                      </a>
-                      <a
+                      </a> */}
+                      {/* <a
                         href="https://orcid.org/0009-0002-2280-3130"
                         target="_blank"
                         rel="noreferrer"
                       >
                         {" "}
                         <FontAwesomeIcon className="icon-data-area" icon={faOrcid} />
-                      </a>
+                      </a> */}
 
 
 

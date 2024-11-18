@@ -2797,6 +2797,54 @@ footer {
   color: white;
   margin-left: 48px;
 }
+
+.from-data input {
+  width: 96%;
+  border: 2px solid #f8094900;
+  height: 50px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: #161616;
+  font-size: 15px;
+  padding-left: 20px;
+  font-weight: 500;
+  text-transform: lowercase;
+  color: white;
+}
+.from-data textarea {
+  font-size: 15px;
+}
+.from-data input {
+  width: 96%;
+  border: 2px solid #f8094900;
+  height: 50px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: #161616;
+  font-size: 15px;
+  padding-left: 20px;
+  font-weight: 500;
+  text-transform: none;
+  color: #fff;
+}
+
+.hero-data-area p {
+  font-weight: 500;
+  color: white;
+  font-size: 16px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  font-family: "Ubuntu", sans-serif;
+  max-width: 550px;
+  text-align: justify;
+}
+
+.profile p {
+  font-size: 16px;
+  color: #e4e4e4;
+  padding: 0px;
+  font-weight: 500;
+}
 @media (max-width: 600.98px) {
   .pc_title {
     display: none;
@@ -3895,23 +3943,6 @@ footer {
     position: relative;
     top: -10px;
   }
-}
-
-.from-data input {
-  width: 96%;
-  border: 2px solid #f8094900;
-  height: 50px;
-  border-radius: 10px;
-  margin-bottom: 20px;
-  background-color: #161616;
-  font-size: 15px;
-  padding-left: 20px;
-  font-weight: 500;
-  text-transform: lowercase;
-  color: white;
-}
-.from-data textarea {
-  font-size: 15px;
 }
 
 /* .fadeInRight {

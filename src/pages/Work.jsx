@@ -47,12 +47,12 @@ const Work = () => {
       variants={fadeInUp} // Use the defined fadeInUp variants
     >
      <div className="title-area text-center " id="">
-                <h3> My Recent Works</h3>
-                <p>
+                <h3> My Personal Works</h3>
+                {/* <p>
                   {" "}
                   We put your ideas and thus your wishes in the form of a unique
                   web project that inspires you and you customers.
-                </p>
+                </p> */}
               </div>
     </motion.div>
              
