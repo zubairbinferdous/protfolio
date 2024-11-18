@@ -13,7 +13,6 @@ const Hero = () => {
   const phrases = [
     "Data Analyst",
      "Researcher",
-    "Assistant Operation Manager",
   ];
 
   const [currentPhraseIndex, setCurrentPhraseIndex] = useState(0);

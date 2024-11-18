@@ -52,9 +52,9 @@ const About = () => {
                 <div className="col-md-12">
                   <div className="profile text-center">
                     <p>
-                    Accomplished, results-oriented Data Analyst and Researcher with extensive hands-on experience in data to insights and innovation. I possess a Bachelor's degree in Computer Science, complemented by an MBA in Management Information Systems, core competencies in advanced analytics, data visualization-both Power BI and Tableau-and programming in Python and R.
+                    I am a proactive Data Analyst and Researcher with over four years of experience turning data into actionable insights and innovation. With a Bachelor's in Computer Science and an MBA in Management Information Systems, I specialize in advanced analytics, data visualization (Power BI, Tableau), and programming (Python, R).  
 
-Certified as a Google Data Analyst and Microsoft Power BI Professional, I bring experience in trend analysis, process optimization, and impactful research supported by published works on the use of technology implementation and robotics. I especially enjoy leveraging advanced methodologies to provide insight, optimize operations, and ensure excellence.
+As a certified Google Data Analyst and Microsoft Power BI Professional, I bring expertise in trend analysis, process optimization, and impactful research, supported by published work on technology implementation and robotics. I am passionate about leveraging cutting-edge methodologies to deliver insights, optimize operations, and drive excellence.
                     </p>
                   </div>
                 </div>
@@ -319,8 +319,6 @@ Certified as a Google Data Analyst and Microsoft Power BI Professional, I bring 
                   </motion.div>
                 </div>
 
-           
-               
               </div>
             </div> */}
 
@@ -330,7 +328,7 @@ Certified as a Google Data Analyst and Microsoft Power BI Professional, I bring 
               id="skills"
             >
               <h1>Professional Skills</h1>
-              <p className="tab-datatt">3 years +</p>
+              <p className="tab-datatt">4 years +</p>
               <div className="row animation-area">
                 <div className="col-md-6 animation-area">
                   <motion.div

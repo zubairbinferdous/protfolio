@@ -51,6 +51,13 @@ body {
   color: white;
 }
 
+.profile p {
+  font-size: 20px;
+  color: #e4e4e4;
+  padding: 0px;
+  font-weight: 500;
+}
+
 .data-area span a {
   color: white;
   text-decoration: none;

@@ -4,7 +4,6 @@ import React from "react";
 import "../App.css";
 import pro4 from "../assets/4.jpg";
 import pro5 from "../assets/5.jpg";
-import pro7 from "../assets/6.jpg";
 import pro6 from "../assets/7.jpg";
 import pro1 from "../assets/p1.jpg";
 import pro2 from "../assets/p2.jpg";
@@ -824,13 +823,13 @@ Improving organizational performance can be achieved through business process re
       viewport={{ once: false, amount: .4 }} // Only animate once, when 20% is visible
       variants={fadeInUp} // Use the defined fadeInUp variants
     >
-      < div className="title-area text-center">
+      {/* < div className="title-area text-center">
       <h3>Thesis</h3>
                 <p>
                   {" "}
                   This thesis showcases my contributions to the field through various publications, highlighting my expertise and offering insights into emerging trends and technologies.
                 </p>
-              </div>
+              </div> */}
     </motion.div>
             
             </div>
@@ -839,7 +838,7 @@ Improving organizational performance can be achieved through business process re
 
 
 
-            <div className="col-md-4 animation-areaTwo">
+            {/* <div className="col-md-4 animation-areaTwo">
             <motion.div
                 className="title-area text-center"
                 initial="hidden"
@@ -879,7 +878,7 @@ Improving organizational performance can be achieved through business process re
                   </div>
                 </div>
                 </motion.div>
-              </div>
+              </div> */}
               <div
                 className="modal fade"
                 id="exampleModalLabel5500"
