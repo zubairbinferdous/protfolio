@@ -2875,6 +2875,9 @@ footer {
   background-color: #007bff;
   /* margin-right: 20px; */
 }
+.cv a {
+  color: rgb(160, 6, 6) !important;
+}
 @media (max-width: 600.98px) {
   .pc_title {
     display: none;

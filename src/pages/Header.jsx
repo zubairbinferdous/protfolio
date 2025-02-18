@@ -66,6 +66,9 @@ const Header = () => {
             <li className="nav-item">
               <a className="nav-link" href="#Contact" onClick={(e) => handleSmoothScroll(e, '#Contact')}>Contact</a>
             </li>
+            <li className="nav-item cv" >
+              <a className="nav-link" href="https://drive.google.com/file/d/1DoC4bi3AgAsfymY0Y0go6K_2ieFj5_-A/view">Download Cv</a>
+            </li>
           </ul>
         </div>
       </div>

@@ -28,8 +28,8 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_w2cqkxw", "template_p6j0p67", form.current, {
-        publicKey: "YKHK13FJ11oK9pmQi",
+      .sendForm("service_qa61rlt", "template_0bpml3q", form.current, {
+        publicKey: "pDNuwaGNis4xdvhnE",
       })
       .then(
         () => {
