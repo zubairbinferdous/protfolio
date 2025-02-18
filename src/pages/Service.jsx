@@ -8,7 +8,6 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { motion } from "framer-motion";
 import React from "react";
-import pmi from "../assets/pmi.png";
 
 import "../App.css";
 
@@ -161,35 +160,7 @@ const Service = () => {
               </div>
             </div>
 
-            <div className="row" id="">
-              <div className="title-area text-center">
-                <h3> My membership </h3>
-              </div>
-            </div>
 
-            <div className="row mt-60">
-              <div className="col-md-4 fadeInRight">
-                <motion.div
-                  className="title-area text-center"
-                  initial="hidden"
-                  whileInView="visible" // Triggers the animation when the section comes into view
-                  viewport={{ once: false, amount: 0.5 }} // Only animate once, when 20% is visible
-                  variants={fadeInUp} // Use the defined fadeInUp variants
-                >
-                  <div className="service-dataa">
-                    <img src={pmi} alt="" />
-
-                    <div className="pmi">
-                      <div className="data-area">
-                        <h6>Project Management Institute (PMI)</h6>
-                        <span className="hover_data" > <a href="https://skayub.com/PMIMemberCertificate.pdf" target="_blank" rel="noreferrer">Certified Member</a></span> <br />
-                        <span>Member ID: 10318753</span>
-                      </div>
-                    </div>
-                  </div>
-                </motion.div>
-              </div>
-            </div>
           </div>
         </div>
       </div>

@@ -93,12 +93,17 @@ const Contact = () => {
                       <div className="ex-sectione">
                         <div className="ex-dataa">
                           <h3>Email :</h3>
-                          <h4>skayub.rjs@gmail.com</h4>
+                          <h4>zubidev71@gmail.com</h4>
                         </div>
                         <div className="ex-dataa">
                           <h3>Address :</h3>
                           <h4>
-                            Los Angeles, California, United States of America
+                          EURO
+Mamataz Mahol
+House#14, lane#09, 
+ward#09
+
+Hazipara Uttor Badda
                           </h4>
                         </div>
                       </div>

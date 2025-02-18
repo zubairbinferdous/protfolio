@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../assets/logo.jpg";
 const Footer = () => {
   return (
     <footer>
@@ -10,7 +9,7 @@ const Footer = () => {
         <div className="row">
           <div className="footer-area ">
             <div className="logo-area ">
-              <img src={logo} alt="" />
+              {/* zubair */}
             </div>
            <div className="col-md-12">
            <div className="footer-link text-center">
@@ -28,11 +27,11 @@ const Footer = () => {
                   </a>
                 </li>
 
-                <li className="">
+                {/* <li className="">
                   <a className="" href="#Publication">
                     Publication
                   </a>
-                </li>
+                </li> */}
 
                 <li className="">
                   <a className="" href="#Project">
@@ -46,11 +45,11 @@ const Footer = () => {
                   </a>
                 </li>
 
-                <li className="">
+                {/* <li className="">
                   <a className="" href="#Testimonials">
                     Testimonials
                   </a>
-                </li>
+                </li> */}
 
                 <li className="">
                   <a className="" href="#Contact">

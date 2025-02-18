@@ -11,8 +11,7 @@ import profile from "../assets/borobhai.jpg";
 
 const Hero = () => {
   const phrases = [
-    "Data Analyst",
-     "Researcher",
+    "Full Stack Developer",
   ];
 
   const [currentPhraseIndex, setCurrentPhraseIndex] = useState(0);
@@ -60,24 +59,21 @@ const Hero = () => {
 
                   <h1 className="pc_title">
                     {" "}
-                    Hi, I’m <span className="title-head">SK Ayub </span> <br />
-                    <span className="title-head">Al Wahid</span>
+                    Hi, I’m <span className="title-head">Zubiar Bin</span> <br />
+                    <span className="title-head">Ferdous</span>
                   </h1>
 
                   <h1 className="mobile_title">
                     {" "}
-                    Hi, I’m <span className="title-head">SK Ayub </span> 
-                    <span className="title-head">Al Wahid</span>
+                    Hi, I’m <span className="title-head">Zubiar Bin</span> 
+                    <span className="title-head">Ferdous</span>
                   </h1>
 
 
                   <h5>
                     {phrases[currentPhraseIndex].substring(0, currentCharIndex)}
                   </h5>
-                  <p>
-                  I am a passionate Data Analyst and Researcher who is committed to turning data into actionable insights and innovative solutions. With expertise in analytics, research, and technology, I bridge the gap from the most complex of challenges toward impactful results.{" "}
-                    
-                  </p>
+
                   {/* <div className="hero-download-area">
                     <a
                       href="https://www.skayub.com/cv.pdf"
@@ -93,7 +89,7 @@ const Hero = () => {
                     <h4>find with me</h4>
                     <div className="sizeIcon">
                       <a
-                        href="https://github.com/SKRJS"
+                        href="https://github.com/zubairbinferdous"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -142,8 +138,8 @@ const Hero = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-5 img-area ">
-              <div className="">
+            <div className="col-md-5 img-area">
+              <div className="profile_img">
                 <img src={profile} alt="" className="img-fluid" />
               </div>
             </div>

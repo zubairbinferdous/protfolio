@@ -1,6 +1,5 @@
 import './App.css'
 import About from './pages/About'
-import Articles from './pages/Articles'
 import Contact from './pages/Contact'
 import Footer from './pages/Footer'
 import Header from './pages/Header'
@@ -15,7 +14,7 @@ function App() {
       <Header></Header>
       <Hero></Hero>
       <About></About>
-      <Articles></Articles>
+      {/* <Articles></Articles> */}
       <Service></Service>
       {/* <Clints></Clints> */}
       <Work></Work>

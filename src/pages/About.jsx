@@ -52,9 +52,9 @@ const About = () => {
                 <div className="col-md-12">
                   <div className="profile text-center">
                     <p>
-                    I am a proactive Data Analyst and Researcher with over four years of experience turning data into actionable insights and innovation. With a Bachelor's in Computer Science and an MBA in Management Information Systems, I specialize in advanced analytics, data visualization (Power BI, Tableau), and programming (Python, R).  
+                    I am a  Full-Stack Developer with a strong foundation in front-end development and a deep understanding of modern web technologies. I thrive on hard work, efficiency, and continuous learning, always seeking to expand my knowledge and explore new technologies in the field.
 
-As a certified Google Data Analyst and Microsoft Power BI Professional, I bring expertise in trend analysis, process optimization, and impactful research, supported by published work on technology implementation and robotics. I am passionate about leveraging cutting-edge methodologies to deliver insights, optimize operations, and drive excellence.
+With hands-on experience in both front-end and back-end development, I am dedicated to building scalable, high-performance web applications. My goal is to deliver impactful solutions while refining my skills.I am always ready to take on new challenges, push my limits, and achieve excellence in the world of web development
                     </p>
                   </div>
                 </div>
@@ -340,7 +340,7 @@ As a certified Google Data Analyst and Microsoft Power BI Professional, I bring 
                   >
                     <div className="data-area-tab-item2">
                       <div className="tab-area-para">
-                        <p>front end Development</p>
+                        <p>Front End Development</p>
                       </div>
                       <div className="skill">
                         <h3>HTML</h3>
@@ -377,7 +377,7 @@ As a certified Google Data Analyst and Microsoft Power BI Professional, I bring 
                       </div>
 
                       <div className="skill">
-                        <h3>Next.js</h3>
+                        <h3>Tailwind</h3>
                         <div className="skill-bar">
                           <div className="progress nextjs"></div>
                         </div>
@@ -396,7 +396,7 @@ As a certified Google Data Analyst and Microsoft Power BI Professional, I bring 
                   >
                     <div className="data-area-tab-item2">
                       <div className="tab-area-para">
-                        <p>back end Development</p>
+                        <p>Back End Development</p>
                       </div>
                       <div className="skill">
                         <h3>MongoDB</h3>
